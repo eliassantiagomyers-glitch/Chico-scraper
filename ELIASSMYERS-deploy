@@ -1,0 +1,35 @@
+name: Deploy to eliassmyers.wiki/chico-scraper
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout CHICO-SCRAPER
+        uses: actions/checkout@v4
+
+      - name: Checkout ELIASSMYERS into subfolder
+        uses: actions/checkout@v4
+        with:
+          repository: eliassantiagomyers-glitch/eliassmyers
+          token: ${{ secrets.ELIASSMYERS_DEPLOY_TOKEN }}
+          path: ELIASSMYERS-deploy
+
+      - name: Copy files to subfolder
+        run: |
+          rm -rf ELIASSMYERS-deploy/chico-scraper
+          mkdir -p ELIASSMYERS-deploy/chico-scraper
+          cp -r ./* ELIASSMYERS-deploy/chico-scraper/
+          # Remove the .git folder and workflow to avoid conflicts
+          rm -rf ELIASSMYERS-deploy/chico-scraper/.git
+          rm -rf ELIASSMYERS-deploy/chico-scraper/.github
+
+      - name: Commit and push to repo1
+        working-directory: ELIASSMYERS-deploy
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add chico-scraper/
+          git commit -m "Update chico-scraper from repo2" || echo "No changes"
+          git push
