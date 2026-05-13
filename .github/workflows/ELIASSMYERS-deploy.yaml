@@ -18,10 +18,21 @@ jobs:
 
       - name: Copy files to subfolder
         run: |
+          # 1. Create a temporary spot for your files
+          mkdir -p /tmp/scraper_files
+          
+          # 2. Copy everything to that temporary spot (avoiding the loop)
+          # We exclude the ELIASSMYERS-deploy folder specifically
+          rsync -av . /tmp/scraper_files --exclude ELIASSMYERS-deploy
+          
+          # 3. Clean out the old version in the destination
           rm -rf ELIASSMYERS-deploy/chico-scraper
           mkdir -p ELIASSMYERS-deploy/chico-scraper
-          cp -r ./* ELIASSMYERS-deploy/chico-scraper/
-          # Remove the .git folder and workflow to avoid conflicts
+          
+          # 4. Move the files from the temp spot to the destination
+          cp -r /tmp/scraper_files/* ELIASSMYERS-deploy/chico-scraper/
+          
+          # 5. Cleanup
           rm -rf ELIASSMYERS-deploy/chico-scraper/.git
           rm -rf ELIASSMYERS-deploy/chico-scraper/.github
 
