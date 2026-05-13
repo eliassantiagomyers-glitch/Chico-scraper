@@ -1,7 +1,7 @@
 """
 build_dashboard.py
 Reads data/state.json produced by scraper.py and generates index.html —
-the live dashboard for Chico City Council meeting tracking.
+the Chico Policy Tracker dashboard.
 """
 
 import json
@@ -11,12 +11,12 @@ from pathlib import Path
 STATE_FILE = Path(__file__).parent / "data" / "state.json"
 OUTPUT     = Path(__file__).parent / "index.html"
 
-STATUS_COLOR = {
+STATUS_BADGE = {
     "active":    ("badge-red",   "Active"),
     "passed":    ("badge-green", "Passed"),
     "tabled":    ("badge-amber", "Tabled / Continued"),
-    "scheduled": ("badge-blue",  "Scheduled"),
-    "unknown":   ("badge-gray",  "Ongoing"),
+    "scheduled": ("badge-info",  "Scheduled"),
+    "unknown":   ("badge-gold",  "Ongoing"),
 }
 
 
@@ -32,152 +32,168 @@ def badge(cls: str, text: str) -> str:
 
 
 def render_bill_card(bill: dict, idx: int) -> str:
-    color_cls, label = STATUS_COLOR.get(bill["status"], ("badge-gray", "Ongoing"))
+    color_cls, label = STATUS_BADGE.get(bill["status"], ("badge-gold", "Ongoing"))
     appearances = bill["appearances"]
     count = bill["meeting_count"]
 
-    # Build mini timeline
     timeline_html = ""
     for i, ap in enumerate(sorted(appearances, key=lambda x: x["date"])):
-        is_last = (i == len(appearances) - 1)
-        dot_cls = "current" if is_last else "past"
+        dot_cls = "now" if i == len(appearances) - 1 else "past"
+        sub = f'<div class="tl-sub">{ap["meeting_title"]}</div>' if ap.get("meeting_title") else ""
         timeline_html += f"""
-        <div class="tl-item">
-          <div class="tl-dot {dot_cls}"></div>
-          <div class="tl-date">{fmt_date(ap['date'])}</div>
-          <div class="tl-event">{ap.get('title_seen', bill['canonical_title'])}</div>
-          {'<div class="tl-sub">' + ap.get("meeting_title","") + '</div>' if ap.get("meeting_title") else ""}
-        </div>"""
+          <div class="tl-item">
+            <div class="tl-dot {dot_cls}"></div>
+            <div class="tl-date">{fmt_date(ap["date"])}</div>
+            <div class="tl-event">{ap.get("title_seen", bill["canonical_title"])}</div>
+            {sub}
+          </div>"""
 
     expand_id = f"bill-{idx}"
     return f"""
     <div class="card">
-      <div class="card-header">
-        <span class="card-num">#{count} mtgs</span>
-        <span class="card-title">{bill['canonical_title']}</span>
+      <div class="card-row">
+        <span class="card-num">{count} mtgs</span>
+        <span class="card-title">{bill["canonical_title"]}</span>
       </div>
-      <div class="badges">
+      <div class="card-meta">
         {badge(color_cls, label)}
-        {badge("badge-gray", f"First: {fmt_date(bill['first_seen'])}")}
-        {badge("badge-gray", f"Last: {fmt_date(bill['last_seen'])}")}
+        {badge("badge-slate", f'First: {fmt_date(bill["first_seen"])}')}
+        {badge("badge-slate", f'Last: {fmt_date(bill["last_seen"])}')}
       </div>
-      <button class="expand-btn" onclick="toggle('{expand_id}', this)">
-        Show timeline ({count} appearances) <span class="chevron">▾</span>
+      <button class="expand-btn" onclick="toggleExpand('{expand_id}', this)">
+        &#8964; Show timeline ({count} appearances)
       </button>
-      <div class="detail" id="{expand_id}">
-        <div class="timeline">{timeline_html}</div>
+      <div class="expand-content" id="{expand_id}">
+        <div class="tl">{timeline_html}</div>
       </div>
     </div>"""
 
 
 def render_meeting_card(meeting: dict, idx: int) -> str:
-    has_min = meeting.get("has_minutes") or meeting.get("type") == "minutes"
+    has_min  = meeting.get("has_minutes") or meeting.get("type") == "minutes"
     date_str = fmt_date(meeting["date"])
-    title = meeting.get("title", f"Meeting {date_str}")
-    link  = meeting.get("link", "#")
+    title    = meeting.get("title", f"Meeting {date_str}")
+    link     = meeting.get("link", "#")
+    items    = meeting.get("items") or meeting.get("agenda_items", [])
 
-    items = meeting.get("items") or meeting.get("agenda_items", [])
     items_html = ""
-    if items:
-        for item in items[:12]:
-            num_part = f'<span class="card-num">{item["num"]}</span>' if item.get("num") else ""
-            items_html += f'<div class="card-header">{num_part}<span class="card-title" style="font-size:13px;font-weight:400">{item["title"]}</span></div>'
-        if len(items) > 12:
-            items_html += f'<div class="card-desc" style="margin-top:.4rem">…and {len(items)-12} more items</div>'
+    for item in items[:12]:
+        num = f'<span class="card-num">{item["num"]}</span>' if item.get("num") else ""
+        items_html += f'<div class="card-row" style="margin-bottom:4px">{num}<span class="card-title" style="font-size:13px;font-weight:400">{item["title"]}</span></div>'
+    if len(items) > 12:
+        items_html += f'<div class="card-desc">and {len(items) - 12} more items</div>'
 
+    min_badge = badge("badge-green", "&#10003; Minutes available") if has_min else badge("badge-amber", "Agenda only")
     expand_id = f"mtg-{idx}"
-    minutes_badge = badge("badge-green", "Minutes available") if has_min else badge("badge-amber", "Agenda only")
 
-    # Prepare the "Show items" section if there are items
     expand_section = ""
     if items:
         expand_section = f"""
-        <button class="expand-btn" onclick="toggle('{expand_id}', this)">
-            Show items ({len(items)}) <span class="chevron">▾</span>
-        </button>
-        <div class="detail" id="{expand_id}">{items_html}</div>
-        """
+      <button class="expand-btn" onclick="toggleExpand('{expand_id}', this)">
+        &#8964; Show items ({len(items)})
+      </button>
+      <div class="expand-content" id="{expand_id}">{items_html}</div>"""
+
+    source_link = f'<a class="source-link" href="{link}" target="_blank">&#8599; Granicus source</a>' if link and link != "#" else ""
 
     return f"""
     <div class="card">
-      <div class="card-header">
+      <div class="card-row">
         <span class="card-num">{date_str}</span>
-        <span class="card-title"><a href="{link}" target="_blank" style="color:inherit;text-decoration:none">{title} ↗</a></span>
+        <span class="card-title">
+          <a href="{link}" target="_blank" style="color:inherit;text-decoration:none">{title} &#8599;</a>
+        </span>
       </div>
-      <div class="badges">{minutes_badge}</div>
+      <div class="card-meta">
+        {min_badge}
+        {source_link}
+      </div>
       {expand_section}
     </div>"""
+
+
+def render_recent_item(it: dict) -> str:
+    num_html = f'<span class="card-num">{it["num"]}</span>' if it.get("num") else ""
+    return (
+        f'<div class="card">'
+        f'<div class="card-row">{num_html}'
+        f'<span class="card-title">{it["title"]}</span>'
+        f'</div></div>'
+    )
+
 
 def build(state: dict) -> str:
     meetings = state.get("meetings", [])
     bills    = state.get("bills", [])
     updated  = state.get("last_updated", "")
+
     try:
         updated_fmt = datetime.fromisoformat(updated).strftime("%b %-d, %Y at %-I:%M %p UTC")
     except Exception:
-        updated_fmt = updated
+        updated_fmt = updated or "unknown"
 
     recent_meeting = meetings[0] if meetings else {}
     recent_date    = fmt_date(recent_meeting.get("date", "")) if recent_meeting else "—"
     recent_title   = recent_meeting.get("title", "—")
-    next_meeting   = next((m for m in reversed(meetings) if m.get("date", "") > datetime.now().strftime("%Y-%m-%d")), None)
-    next_date_fmt  = fmt_date(next_meeting["date"]) if next_meeting else "TBD"
+    recent_title_short = recent_title[:50] + ("…" if len(recent_title) > 50 else "")
 
+    next_meeting  = next(
+        (m for m in reversed(meetings) if m.get("date", "") > datetime.now().strftime("%Y-%m-%d")),
+        None
+    )
+    next_date_fmt = fmt_date(next_meeting["date"]) if next_meeting else "TBD"
     tracked_active = sum(1 for b in bills if b["status"] == "active")
 
-    # Meeting cards (all)
     meeting_cards_html = "\n".join(render_meeting_card(m, i) for i, m in enumerate(meetings))
 
-    # Bill cards
-    if bills:
-        bill_cards_html = "\n".join(render_bill_card(b, i) for i, b in enumerate(bills))
-    else:
-        bill_cards_html = '<div class="lead">No recurring agenda items detected across meetings yet. Check back after more meetings are scraped.</div>'
+    bill_cards_html = (
+        "\n".join(render_bill_card(b, i) for i, b in enumerate(bills))
+        if bills else
+        '<div class="lead">No recurring agenda items detected yet. Bill tracking improves as more meetings are scraped.</div>'
+    )
 
     recent_items = recent_meeting.get("items") or recent_meeting.get("agenda_items", [])
-    def _recent_card(it):
-        num_html = f'<span class="card-num">{it["num"]}</span>' if it.get("num") else ""
-        return (
-            f'<div class="card"><div class="card-header">'
-            f'{num_html}'
-            f'<span class="card-title">{it["title"]}</span></div></div>'
-        )
-    recent_cards_html = "\n".join(_recent_card(it) for it in recent_items[:20]) \
-        or '<div class="lead">No agenda items found for most recent meeting.</div>'
+    recent_cards_html = (
+        "\n".join(render_recent_item(it) for it in recent_items[:20])
+        or '<div class="lead">No agenda items found for the most recent meeting.</div>'
+    )
+
+    has_min_recent = recent_meeting.get("has_minutes") or recent_meeting.get("type") == "minutes"
+    minutes_note   = "Minutes are available." if has_min_recent else "Minutes not yet published."
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chico City Council — Live Tracker</title>
+<title>Chico Policy Tracker</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap');
+*, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
 
 :root {{
-  --bg: #f5f2ec;
+  --gold: #c9a84c;
+  --gold-bg: rgba(201,168,76,0.12);
+  --dark-header: #0f1923;
+  --bg: #f4f1ec;
   --surface: #ffffff;
-  --surface2: #f0ede6;
-  --border: rgba(0,0,0,0.09);
-  --border2: rgba(0,0,0,0.15);
+  --surface2: #eeebe4;
+  --border: rgba(0,0,0,0.08);
+  --border2: rgba(0,0,0,0.14);
   --text: #1a1814;
   --text2: #6b6660;
   --text3: #9c9691;
-  --accent: #2d5a3d;
-  --accent-light: #e8f0eb;
+  --green: #2a5c3f;
+  --green-bg: #e6f0ea;
   --red: #8b2020;
-  --red-light: #f5e8e8;
+  --red-bg: #f5e8e8;
   --amber: #7a4f00;
-  --amber-light: #fdf3e0;
+  --amber-bg: #fdf3e0;
   --blue: #1a3d6b;
-  --blue-light: #e8eef7;
-  --tag-h: 22px;
+  --blue-bg: #e8eef7;
 }}
 
-*, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
-
 body {{
-  font-family: 'DM Sans', sans-serif;
+  font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
   font-size: 15px;
@@ -186,162 +202,286 @@ body {{
 }}
 
 .site-header {{
-  background: var(--text);
-  color: var(--bg);
-  padding: 3rem 2rem 2.5rem;
+  background: var(--dark-header);
+  padding: 2.5rem 2rem 2rem;
   position: relative;
-  overflow: hidden;
 }}
-.site-header::after {{
+.site-header::before {{
   content: '';
   position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent), #5a9e70, var(--accent));
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: var(--gold);
 }}
-.header-inner {{ max-width: 900px; margin: 0 auto; }}
+.header-inner {{ max-width: 920px; margin: 0 auto; }}
 .header-eyebrow {{
-  font-size: 11px; font-weight: 500; letter-spacing: .12em;
-  text-transform: uppercase; color: rgba(245,242,236,.5); margin-bottom: .75rem;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }}
 .header-title {{
-  font-family: 'Instrument Serif', serif;
-  font-size: clamp(2rem, 5vw, 3rem);
-  font-weight: 400; line-height: 1.1; color: var(--bg); margin-bottom: .5rem;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 400;
+  color: #f0ebe2;
+  margin-bottom: 0.3rem;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
 }}
-.header-title em {{ font-style: italic; color: rgba(245,242,236,.65); }}
-.header-meta {{
-  font-size: 12px; color: rgba(245,242,236,.45);
-  display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; margin-top: 1rem;
+.header-desc {{
+  font-size: 13px;
+  color: #7a7570;
+  margin-bottom: 1rem;
+  max-width: 520px;
+  line-height: 1.5;
 }}
 .update-pill {{
-  display: inline-flex; align-items: center; gap: 6px;
-  font-size: 11px; font-weight: 500; letter-spacing: .04em;
-  background: rgba(255,255,255,.07); color: rgba(245,242,236,.6);
-  border: 1px solid rgba(255,255,255,.12);
-  border-radius: 20px; padding: 3px 12px; margin-top: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #7a7570;
+  border: 0.5px solid #2a3540;
+  border-radius: 20px;
+  padding: 3px 11px;
 }}
 .live-dot {{
-  width: 7px; height: 7px; border-radius: 50%;
-  background: #5a9e70;
-  animation: pulse 2s ease-in-out infinite;
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--gold);
+  animation: blink 2s ease-in-out infinite;
 }}
-@keyframes pulse {{
-  0%,100% {{ opacity:1; }} 50% {{ opacity:.35; }}
-}}
+@keyframes blink {{ 0%,100%{{opacity:1;}} 50%{{opacity:0.3;}} }}
 
-.container {{ max-width: 900px; margin: 0 auto; padding: 2rem 2rem 4rem; }}
+.container {{ max-width: 920px; margin: 0 auto; padding: 2rem 2rem 4rem; }}
 
 .stats-row {{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 12px; margin-bottom: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-bottom: 2rem;
 }}
 .stat {{
   background: var(--surface);
   border: 0.5px solid var(--border);
-  border-radius: 10px; padding: 1rem 1.1rem;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
 }}
-.stat-label {{ font-size: 11px; color: var(--text3); letter-spacing: .04em; text-transform: uppercase; margin-bottom: .3rem; }}
-.stat-val {{ font-family: 'Instrument Serif', serif; font-size: 2rem; color: var(--text); line-height: 1; }}
-.stat-sub {{ font-size: 12px; color: var(--text2); margin-top: .3rem; }}
+.stat-label {{ font-size: 10px; color: var(--text3); letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 4px; }}
+.stat-val {{ font-size: 1.9rem; font-weight: 400; color: var(--text); line-height: 1; }}
+.stat-val.sm {{ font-size: 1.3rem; padding-top: 4px; }}
+.stat-sub {{ font-size: 11px; color: var(--text2); margin-top: 3px; }}
 
-.tabs-wrap {{ margin-bottom: 1.75rem; }}
 .tabs {{
-  display: flex; flex-wrap: wrap; gap: 6px;
-  border-bottom: 0.5px solid var(--border); padding-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 0.5px solid var(--border);
+  margin-bottom: 1.5rem;
 }}
 .tab-btn {{
-  font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 400;
-  padding: 7px 16px; border: none; background: none; color: var(--text2);
-  cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -0.5px;
-  transition: color .15s, border-color .15s; white-space: nowrap;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 8px 15px;
+  border: none;
+  background: none;
+  color: var(--text2);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -0.5px;
+  white-space: nowrap;
+  font-family: inherit;
+  transition: color 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }}
 .tab-btn:hover {{ color: var(--text); }}
-.tab-btn.active {{ color: var(--text); border-bottom-color: var(--accent); font-weight: 500; }}
+.tab-btn.active {{ color: var(--text); border-bottom-color: var(--gold); font-weight: 500; }}
+.tab-pill {{
+  font-size: 10px;
+  background: var(--surface2);
+  color: var(--text3);
+  border-radius: 20px;
+  padding: 1px 7px;
+}}
+.tab-soon {{
+  font-size: 10px;
+  background: var(--gold-bg);
+  color: var(--gold);
+  border-radius: 20px;
+  padding: 1px 7px;
+}}
 .panel {{ display: none; }}
 .panel.active {{ display: block; }}
 
 .card {{
-  background: var(--surface); border: 0.5px solid var(--border);
-  border-radius: 10px; padding: 1.1rem 1.25rem; margin-bottom: .875rem;
-  transition: border-color .15s;
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 0.75rem;
+  transition: border-color 0.15s;
 }}
 .card:hover {{ border-color: var(--border2); }}
-.card-header {{ display: flex; align-items: flex-start; gap: 10px; margin-bottom: .5rem; }}
-.card-num {{ font-size: 11px; color: var(--text3); min-width: 56px; padding-top: 3px; font-weight: 500; white-space: nowrap; }}
-.card-title {{ font-size: 15px; font-weight: 500; color: var(--text); line-height: 1.35; flex: 1; }}
-.card-desc {{ font-size: 13px; color: var(--text2); line-height: 1.65; margin-bottom: .5rem; }}
-
-.badges {{ display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: .6rem; }}
-.badge {{
-  font-size: 11px; font-weight: 500; padding: 2px 9px;
-  border-radius: 20px; height: var(--tag-h);
-  display: inline-flex; align-items: center; letter-spacing: .01em;
+.card-row {{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 6px;
 }}
-.badge-green {{ background: var(--accent-light); color: var(--accent); }}
-.badge-red   {{ background: var(--red-light);    color: var(--red);    }}
-.badge-amber {{ background: var(--amber-light);  color: var(--amber);  }}
-.badge-blue  {{ background: var(--blue-light);   color: var(--blue);   }}
-.badge-gray  {{ background: var(--surface2);     color: var(--text2);  }}
+.card-num {{
+  font-size: 11px;
+  color: var(--text3);
+  min-width: 44px;
+  padding-top: 2px;
+  font-weight: 500;
+  white-space: nowrap;
+}}
+.card-title {{
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  flex: 1;
+  line-height: 1.35;
+}}
+.card-desc {{
+  font-size: 13px;
+  color: var(--text2);
+  line-height: 1.6;
+  margin-top: 4px;
+}}
+.card-meta {{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 6px;
+  align-items: center;
+}}
+.source-link {{
+  font-size: 12px;
+  color: var(--blue);
+  text-decoration: none;
+}}
+.source-link:hover {{ text-decoration: underline; }}
+
+.badge {{
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 9px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}}
+.badge-green  {{ background: var(--green-bg);  color: var(--green);  }}
+.badge-red    {{ background: var(--red-bg);    color: var(--red);    }}
+.badge-amber  {{ background: var(--amber-bg);  color: var(--amber);  }}
+.badge-info   {{ background: var(--blue-bg);   color: var(--blue);   }}
+.badge-slate  {{ background: var(--surface2);  color: var(--text2);  }}
+.badge-gold   {{ background: var(--gold-bg);   color: var(--gold);   }}
 
 .expand-btn {{
-  font-size: 12px; color: var(--accent); background: none; border: none;
-  cursor: pointer; padding: 0; margin-top: .5rem;
-  display: inline-flex; align-items: center; gap: 4px;
-  font-family: 'DM Sans', sans-serif; transition: opacity .15s;
+  font-size: 12px;
+  color: var(--text2);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 6px;
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.15s;
 }}
-.expand-btn:hover {{ opacity: .75; }}
-.expand-btn .chevron {{ display: inline-block; transition: transform .2s; }}
-.expand-btn.open .chevron {{ transform: rotate(180deg); }}
-.detail {{ display: none; margin-top: .875rem; padding-top: .875rem; border-top: 0.5px solid var(--border); }}
-.detail.open {{ display: block; }}
+.expand-btn:hover {{ color: var(--text); }}
+.expand-content {{
+  display: none;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 0.5px solid var(--border);
+}}
+.expand-content.open {{ display: block; }}
 
 .lead {{
-  font-size: 13px; color: var(--text2); line-height: 1.7;
-  margin-bottom: 1.5rem; padding: 1rem 1.25rem;
-  background: var(--surface); border: 0.5px solid var(--border);
-  border-radius: 10px; border-left: 3px solid var(--accent);
+  font-size: 13px;
+  color: var(--text2);
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.2rem;
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+  border-left: 3px solid var(--gold);
 }}
 .lead strong {{ color: var(--text); font-weight: 500; }}
 
-.timeline {{ position: relative; padding-left: 24px; margin-top: .5rem; }}
-.timeline::before {{
-  content: ''; position: absolute; left: 5px; top: 6px; bottom: 6px;
-  width: 1px; background: var(--border2);
+.tl {{ position: relative; padding-left: 20px; margin-top: 4px; }}
+.tl::before {{
+  content: '';
+  position: absolute;
+  left: 4px; top: 6px; bottom: 6px;
+  width: 1px;
+  background: var(--border2);
 }}
-.tl-item {{ position: relative; margin-bottom: 1.1rem; }}
+.tl-item {{ position: relative; margin-bottom: 1rem; }}
 .tl-dot {{
-  position: absolute; left: -21px; top: 5px;
-  width: 9px; height: 9px; border-radius: 50%;
-  border: 1.5px solid var(--border2); background: var(--surface);
+  position: absolute;
+  left: -17px; top: 5px;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border2);
+  background: var(--surface);
 }}
-.tl-dot.past    {{ background: var(--text2); border-color: var(--text2); }}
-.tl-dot.current {{ background: var(--amber); border-color: var(--amber); box-shadow: 0 0 0 3px var(--amber-light); }}
-.tl-date  {{ font-size: 11px; color: var(--text3); margin-bottom: 2px; }}
-.tl-event {{ font-size: 14px; color: var(--text); font-weight: 500; line-height: 1.4; }}
-.tl-sub   {{ font-size: 12px; color: var(--text2); margin-top: 3px; line-height: 1.5; }}
+.tl-dot.past {{ background: var(--text2); border-color: var(--text2); }}
+.tl-dot.now  {{ background: var(--gold); border-color: var(--gold); box-shadow: 0 0 0 3px var(--gold-bg); }}
+.tl-date  {{ font-size: 11px; color: var(--text3); margin-bottom: 1px; }}
+.tl-event {{ font-size: 13px; color: var(--text); font-weight: 500; line-height: 1.4; }}
+.tl-sub   {{ font-size: 12px; color: var(--text2); margin-top: 2px; }}
 
 .section-label {{
-  font-size: 10px; font-weight: 500; letter-spacing: .1em;
-  text-transform: uppercase; color: var(--text3);
-  margin-bottom: 1rem; margin-top: .25rem;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text3);
+  margin-bottom: 0.875rem;
 }}
 
-.empty-state {{
-  text-align: center; padding: 3rem 1rem; color: var(--text3); font-size: 14px;
+.placeholder-card {{
+  background: var(--surface2);
+  border: 0.5px dashed var(--border2);
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
+  margin-bottom: 0.75rem;
+  text-align: center;
+  color: var(--text2);
 }}
+.placeholder-card p {{ font-size: 13px; line-height: 1.6; }}
+.placeholder-card strong {{ color: var(--text); }}
 
 .site-footer {{
-  border-top: 0.5px solid var(--border); padding: 1.5rem 2rem;
-  text-align: center; font-size: 12px; color: var(--text3);
+  border-top: 0.5px solid var(--border);
+  padding: 1.25rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text3);
+  max-width: 920px;
+  margin: 0 auto;
 }}
-.site-footer a {{ color: var(--text2); }}
+.site-footer a {{ color: var(--text2); text-decoration: none; }}
+.site-footer a:hover {{ text-decoration: underline; }}
 
 @media (max-width: 600px) {{
-  .site-header {{ padding: 2rem 1.25rem 2rem; }}
-  .container {{ padding: 1.5rem 1.25rem 3rem; }}
+  .site-header {{ padding: 2rem 1.25rem 1.5rem; }}
+  .container {{ padding: 1.25rem 1.25rem 3rem; }}
   .stats-row {{ grid-template-columns: repeat(2, 1fr); }}
+  .tabs {{ overflow-x: auto; flex-wrap: nowrap; }}
 }}
 </style>
 </head>
@@ -349,15 +489,12 @@ body {{
 
 <header class="site-header">
   <div class="header-inner">
-    <div class="header-eyebrow">City of Chico · Automated Tracker</div>
-    <h1 class="header-title">Council Watch<br><em>Live Dashboard</em></h1>
-    <div class="header-meta">
-      <span>📍 421 Main Street, Chico, CA</span>
-      <span>🔄 Updates twice daily via GitHub Actions</span>
-    </div>
+    <div class="header-eyebrow">Butte County &middot; California</div>
+    <h1 class="header-title">Chico Policy Tracker</h1>
+    <p class="header-desc">City council activity, legislation, and policy decisions affecting Chico and Butte County &mdash; updated automatically.</p>
     <div class="update-pill">
       <span class="live-dot"></span>
-      Last updated {updated_fmt}
+      Last updated: {updated_fmt}
     </div>
   </div>
 </header>
@@ -368,7 +505,7 @@ body {{
     <div class="stat">
       <div class="stat-label">Meetings tracked</div>
       <div class="stat-val">{len(meetings)}</div>
-      <div class="stat-sub">Agendas + minutes</div>
+      <div class="stat-sub">agendas + minutes</div>
     </div>
     <div class="stat">
       <div class="stat-label">Recurring items</div>
@@ -377,75 +514,93 @@ body {{
     </div>
     <div class="stat">
       <div class="stat-label">Most recent</div>
-      <div class="stat-val" style="font-size:1.4rem">{recent_date}</div>
-      <div class="stat-sub">{recent_title[:40]}{"…" if len(recent_title)>40 else ""}</div>
+      <div class="stat-val sm">{recent_date}</div>
+      <div class="stat-sub">{recent_title_short}</div>
     </div>
     <div class="stat">
       <div class="stat-label">Next meeting</div>
-      <div class="stat-val" style="font-size:1.4rem">{next_date_fmt}</div>
-      <div class="stat-sub">Per published agenda</div>
+      <div class="stat-val sm">{next_date_fmt}</div>
+      <div class="stat-sub">per published agenda</div>
     </div>
   </div>
 
-  <div class="tabs-wrap">
-    <div class="tabs" role="tablist">
-      <button class="tab-btn active" onclick="showTab('latest', this)">Latest Meeting</button>
-      <button class="tab-btn" onclick="showTab('bills', this)">Bill Tracker</button>
-      <button class="tab-btn" onclick="showTab('history', this)">All Meetings</button>
-    </div>
+  <div class="tabs" role="tablist">
+    <button class="tab-btn active" onclick="showTab('council', this)">
+      Council <span class="tab-pill">{len(meetings)}</span>
+    </button>
+    <button class="tab-btn" onclick="showTab('bills', this)">
+      Bill tracker <span class="tab-pill">{len(bills)}</span>
+    </button>
+    <button class="tab-btn" onclick="showTab('state', this)">
+      State leg. <span class="tab-soon">Soon</span>
+    </button>
+    <button class="tab-btn" onclick="showTab('federal', this)">
+      Federal <span class="tab-soon">Soon</span>
+    </button>
+    <button class="tab-btn" onclick="showTab('agency', this)">
+      Agency policy <span class="tab-soon">Soon</span>
+    </button>
   </div>
 
-  <!-- ════ LATEST MEETING ════ -->
-  <div id="latest" class="panel active">
+  <div id="panel-council" class="panel active">
     <div class="lead">
       <strong>{recent_title}</strong><br>
-      Showing agenda items from the most recently published meeting ({recent_date}).
-      {"Minutes are available." if recent_meeting.get("has_minutes") else "Minutes not yet published."}
+      Most recently published meeting &mdash; {recent_date}. {minutes_note}
     </div>
-    <div class="section-label">Agenda items</div>
+    <div class="section-label">Latest agenda items</div>
     {recent_cards_html}
+    <div class="section-label" style="margin-top:2rem">All meetings</div>
+    {meeting_cards_html}
   </div>
 
-  <!-- ════ BILL TRACKER ════ -->
-  <div id="bills" class="panel">
+  <div id="panel-bills" class="panel">
     <div class="lead">
-      Items that appear on <strong>multiple meeting agendas</strong> are tracked here as recurring bills.
-      The tracker detects them by comparing agenda item titles across meetings using fuzzy matching.
-      <strong>{len(bills)} recurring items</strong> detected so far.
+      Items appearing on <strong>multiple meeting agendas</strong> are tracked here as recurring bills.
+      Detected by comparing agenda item titles across meetings.
+      <strong>{len(bills)} recurring items</strong> found so far.
     </div>
-    <div class="section-label">Tracked items — sorted by most recent appearance</div>
+    <div class="section-label">Tracked items &mdash; most recent first</div>
     {bill_cards_html}
   </div>
 
-  <!-- ════ ALL MEETINGS ════ -->
-  <div id="history" class="panel">
-    <div class="lead">
-      All meetings scraped from the Granicus RSS feed, newest first.
-      <strong>{len(meetings)} total</strong>.
+  <div id="panel-state" class="panel">
+    <div class="section-label">California state legislation</div>
+    <div class="placeholder-card">
+      <p><strong>Coming soon.</strong> California bills and agency rules with relevance to Chico and Butte County, filtered via the LegiScan and CA Legislative APIs.</p>
     </div>
-    <div class="section-label">Meeting history</div>
-    {meeting_cards_html}
+  </div>
+
+  <div id="panel-federal" class="panel">
+    <div class="section-label">Federal legislation</div>
+    <div class="placeholder-card">
+      <p><strong>Coming soon.</strong> Federal bills affecting housing, water, infrastructure, and agriculture in Butte County &mdash; via Congress.gov API.</p>
+    </div>
+  </div>
+
+  <div id="panel-agency" class="panel">
+    <div class="section-label">Agency policy changes</div>
+    <div class="placeholder-card">
+      <p><strong>Coming soon.</strong> Regulatory and policy changes from CalOES, EPA, CDFA, FEMA, and other agencies relevant to Butte County.</p>
+    </div>
   </div>
 
 </div>
 
 <footer class="site-footer">
-  Source: <a href="https://chico-ca.granicus.com/ViewPublisher.php?view_id=2" target="_blank">Chico Granicus</a>
-  · Data updated automatically twice daily
-  · <a href="https://github.com/eliassantiagomyers-glitch/Chico-scraper" target="_blank">GitHub</a>
+  <span>Source: <a href="https://chico-ca.granicus.com/ViewPublisher.php?view_id=2" target="_blank">Chico Granicus</a> &middot; Updated twice daily via GitHub Actions</span>
+  <a href="https://github.com/eliassantiagomyers-glitch/Chico-scraper" target="_blank">GitHub &rarr;</a>
 </footer>
 
 <script>
 function showTab(id, btn) {{
   document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(t => t.classList.remove('active'));
-  document.getElementById(id).classList.add('active');
+  document.getElementById('panel-' + id).classList.add('active');
   btn.classList.add('active');
 }}
-function toggle(id, btn) {{
+function toggleExpand(id, btn) {{
   const el = document.getElementById(id);
-  const isOpen = el.classList.toggle('open');
-  btn.classList.toggle('open', isOpen);
+  el.classList.toggle('open');
 }}
 </script>
 </body>
@@ -459,7 +614,7 @@ def main():
     state = json.loads(STATE_FILE.read_text())
     html  = build(state)
     OUTPUT.write_text(html, encoding="utf-8")
-    print(f"Dashboard written → {OUTPUT}")
+    print(f"Dashboard written -> {OUTPUT}")
 
 
 if __name__ == "__main__":
