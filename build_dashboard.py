@@ -88,6 +88,16 @@ def render_meeting_card(meeting: dict, idx: int) -> str:
     expand_id = f"mtg-{idx}"
     minutes_badge = badge("badge-green", "Minutes available") if has_min else badge("badge-amber", "Agenda only")
 
+    # Prepare the "Show items" section if there are items
+    expand_section = ""
+    if items:
+        expand_section = f"""
+        <button class="expand-btn" onclick="toggle('{expand_id}', this)">
+            Show items ({len(items)}) <span class="chevron">▾</span>
+        </button>
+        <div class="detail" id="{expand_id}">{items_html}</div>
+        """
+
     return f"""
     <div class="card">
       <div class="card-header">
@@ -95,9 +105,8 @@ def render_meeting_card(meeting: dict, idx: int) -> str:
         <span class="card-title"><a href="{link}" target="_blank" style="color:inherit;text-decoration:none">{title} ↗</a></span>
       </div>
       <div class="badges">{minutes_badge}</div>
-      {'<button class="expand-btn" onclick="toggle(\'' + expand_id + '\', this)">Show items (' + str(len(items)) + ') <span class="chevron">▾</span></button><div class="detail" id="' + expand_id + '">' + items_html + '</div>' if items else ""}
+      {expand_section}
     </div>"""
-
 
 def build(state: dict) -> str:
     meetings = state.get("meetings", [])
