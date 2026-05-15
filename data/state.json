@@ -5186,19 +5186,22 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-05-14T20:23:26.484894+00:00",
+  "last_updated": "2026-05-15T09:37:11.601333+00:00",
   "last_items_hash": "26853e081c65f051",
-  "changed": true,
+  "changed": false,
   "prev_bill_ids": [
+    "3e3906b72e",
+    "3f3d7785e4",
     "064a20a29f",
-    "55f18631cd",
     "3e8bb0976e",
     "feeeafad36",
+    "55f18631cd",
     "d8d59af4f0",
     "e3a8bd19b1",
     "3887b6fa34"
   ],
   "prev_meeting_dates": [
+    "2026-05-14",
     "2026-05-11",
     "2026-05-07",
     "2026-05-05",
