@@ -1,25 +1,6 @@
 {
   "meetings": [
     {
-      "title": "5/19/26 Council Meeting - Budget Session Begins at 1:00 p.m. - May 19, 2026",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1194",
-      "date": "2026-05-14",
-      "guid": "a7db241c-e8cc-44c1-b126-34ae36c8b9b4",
-      "raw_desc": "<p style='margin-top:2px;'>\nThe agenda for 5/19/26 Council Meeting - Budget Session Begins at 1:00 p.m. dated Tuesday, 19 May 2026  has been published. Access it here:<br />      <a href=\"https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1194\" style='margin-right:50px;'>https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1194</a>\n      </p>",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for 5/19/26 Council Meeting - Budget Session Begins at 1:00 p.m. dated Tuesday, 19 May 2026  has been published. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1194"
-        }
-      ],
-      "has_minutes": false,
-      "type": "agenda"
-    },
-    {
       "title": "3/16/26 City Council - Special Closed Session (No video) - Mar 16, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1308",
       "date": "2026-05-11",
@@ -3218,376 +3199,6 @@
   ],
   "bills": [
     {
-      "id": "3e3906b72e",
-      "canonical_title": "The agenda for 5/19/26 Council Meeting - Budget Session Begins at 1:00 p.m. dated Tuesday, 19 May 2026  has been published. Access it here:",
-      "first_seen": "2022-05-03",
-      "last_seen": "2026-05-14",
-      "appearances": [
-        {
-          "date": "2022-05-03",
-          "title_seen": "The agenda for 5/3/22 City Council Meeting dated Tuesday, 03 May 2022  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "5/3/22 City Council Meeting - May 03, 2022",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1065"
-        },
-        {
-          "date": "2022-05-17",
-          "title_seen": "The agenda for 5/17/22 City Council Meeting - 1 p.m. Budget Study Session dated Tuesday, 17 May 2022  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "5/17/22 City Council Meeting - 1 p.m. Budget Study Session - May 17, 2022",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1066"
-        },
-        {
-          "date": "2025-05-20",
-          "title_seen": "The agenda for 5/20/25 City Council Meeting dated Tuesday, 20 May 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "5/20/25 City Council Meeting - May 20, 2025",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1224"
-        },
-        {
-          "date": "2026-01-06",
-          "title_seen": "The agenda for 1/6/26 Council Meeting dated Tuesday, 06 January 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "1/6/26 Council Meeting - Jan 06, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1264"
-        },
-        {
-          "date": "2026-01-20",
-          "title_seen": "The agenda for 1/20/26 Council Meeting dated Tuesday, 20 January 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "1/20/26 Council Meeting - Jan 20, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1276"
-        },
-        {
-          "date": "2026-02-03",
-          "title_seen": "The agenda for 2/3/26 Council Meeting dated Tuesday, 03 February 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "2/3/26 Council Meeting - Feb 03, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1283"
-        },
-        {
-          "date": "2026-02-17",
-          "title_seen": "The agenda for 2/17/26 Council Meeting dated Tuesday, 17 February 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "2/17/26 Council Meeting - Feb 17, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1285"
-        },
-        {
-          "date": "2026-03-17",
-          "title_seen": "The agenda for 3/17/26 Council Meeting dated Tuesday, 17 March 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "3/17/26 Council Meeting - Mar 17, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1288"
-        },
-        {
-          "date": "2026-04-07",
-          "title_seen": "The agenda for 4/7/26 Council Meeting dated Tuesday, 07 April 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "4/7/26 Council Meeting - Apr 07, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1298"
-        },
-        {
-          "date": "2026-04-21",
-          "title_seen": "The agenda for 4/21/26 Council Meeting dated Tuesday, 21 April 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "4/21/26 Council Meeting - Apr 21, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1302"
-        },
-        {
-          "date": "2026-05-05",
-          "title_seen": "The agenda for 5/5/26 Council Meeting dated Tuesday, 05 May 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "5/5/26 Council Meeting - May 05, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1304"
-        },
-        {
-          "date": "2026-05-14",
-          "title_seen": "The agenda for 5/19/26 Council Meeting - Budget Session Begins at 1:00 p.m. dated Tuesday, 19 May 2026  has been published. Access it here:",
-          "num": "",
-          "meeting_title": "5/19/26 Council Meeting - Budget Session Begins at 1:00 p.m. - May 19, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1194"
-        }
-      ],
-      "meeting_count": 12,
-      "status": "active"
-    },
-    {
-      "id": "3f3d7785e4",
-      "canonical_title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1194",
-      "first_seen": "2023-08-03",
-      "last_seen": "2026-05-14",
-      "appearances": [
-        {
-          "date": "2023-08-03",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1132",
-          "num": "",
-          "meeting_title": "Planning Commission - Aug 03, 2023",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1132"
-        },
-        {
-          "date": "2023-08-17",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1133",
-          "num": "",
-          "meeting_title": "Planning Commission - Aug 17, 2023",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1133"
-        },
-        {
-          "date": "2023-10-05",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1138",
-          "num": "",
-          "meeting_title": "Planning Commission - Oct 05, 2023",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1138"
-        },
-        {
-          "date": "2023-11-16",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1142",
-          "num": "",
-          "meeting_title": "Planning Commission - Nov 16, 2023",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1142"
-        },
-        {
-          "date": "2023-12-05",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1145",
-          "num": "",
-          "meeting_title": "12/5/23 Council Meeting - Dec 05, 2023",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1145"
-        },
-        {
-          "date": "2024-01-18",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1151",
-          "num": "",
-          "meeting_title": "Planning Commission - Jan 18, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1151"
-        },
-        {
-          "date": "2024-02-01",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1152",
-          "num": "",
-          "meeting_title": "2/1/24 Planning Commission - Feb 01, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1152"
-        },
-        {
-          "date": "2024-05-16",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1163",
-          "num": "",
-          "meeting_title": "Planning Commission - May 16, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1163"
-        },
-        {
-          "date": "2024-06-06",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1167",
-          "num": "",
-          "meeting_title": "6-6-2024 Planning Commission - Jun 06, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1167"
-        },
-        {
-          "date": "2024-07-18",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1174",
-          "num": "",
-          "meeting_title": "7/18/24 Planning Commission - Jul 18, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1174"
-        },
-        {
-          "date": "2024-09-05",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1186",
-          "num": "",
-          "meeting_title": "Planning Commission - Sep 05, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1186"
-        },
-        {
-          "date": "2024-10-15",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1194",
-          "num": "",
-          "meeting_title": "10/15/24 City Council - Oct 15, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1194"
-        },
-        {
-          "date": "2025-02-20",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1209",
-          "num": "",
-          "meeting_title": "2/20/25 Planning Commission Meeting - Feb 20, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1209"
-        },
-        {
-          "date": "2025-03-20",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1215",
-          "num": "",
-          "meeting_title": "3-20-2025 Planning Commission Meeting - Mar 20, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1215"
-        },
-        {
-          "date": "2025-04-03",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1218",
-          "num": "",
-          "meeting_title": "4-3-2025 Planning Commission Meeting - Apr 03, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1218"
-        },
-        {
-          "date": "2025-05-15",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1222",
-          "num": "",
-          "meeting_title": "5-15-2025 Planning Commission - May 15, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1222"
-        },
-        {
-          "date": "2025-06-05",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1226",
-          "num": "",
-          "meeting_title": "6-5-2025 Planning Commission - Jun 05, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1226"
-        },
-        {
-          "date": "2025-07-17",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1231",
-          "num": "",
-          "meeting_title": "Planning Commission Meeting - Jul 17, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1231"
-        },
-        {
-          "date": "2025-10-07",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1237",
-          "num": "",
-          "meeting_title": "10/7/25 Council Meeting - Oct 07, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1237"
-        },
-        {
-          "date": "2025-10-21",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1240",
-          "num": "",
-          "meeting_title": "10/21/25 Council Meeting - Oct 21, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1240"
-        },
-        {
-          "date": "2025-11-04",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1242",
-          "num": "",
-          "meeting_title": "Council Meeting - Nov 04, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1242"
-        },
-        {
-          "date": "2025-11-18",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1243",
-          "num": "",
-          "meeting_title": "11/18/25 Council Meeting - Nov 18, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1243"
-        },
-        {
-          "date": "2025-12-02",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1244",
-          "num": "",
-          "meeting_title": "12/2/25 Council Meeting - Dec 02, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1244"
-        },
-        {
-          "date": "2025-12-04",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1245",
-          "num": "",
-          "meeting_title": "Planning Commission - Dec 04, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1245"
-        },
-        {
-          "date": "2026-01-06",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1264",
-          "num": "",
-          "meeting_title": "1/6/26 Council Meeting - Jan 06, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1264"
-        },
-        {
-          "date": "2026-01-20",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1276",
-          "num": "",
-          "meeting_title": "1/20/26 Council Meeting - Jan 20, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1276"
-        },
-        {
-          "date": "2026-02-03",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1283",
-          "num": "",
-          "meeting_title": "2/3/26 Council Meeting - Feb 03, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1283"
-        },
-        {
-          "date": "2026-02-17",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1285",
-          "num": "",
-          "meeting_title": "2/17/26 Council Meeting - Feb 17, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1285"
-        },
-        {
-          "date": "2026-02-19",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1286",
-          "num": "",
-          "meeting_title": "Planning Commission - Feb 19, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1286"
-        },
-        {
-          "date": "2026-03-03",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1287",
-          "num": "",
-          "meeting_title": "3/3/26 Council Meeting & Posted Addendum - Mar 03, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1287"
-        },
-        {
-          "date": "2026-03-17",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1288",
-          "num": "",
-          "meeting_title": "3/17/26 Council Meeting - Mar 17, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1288"
-        },
-        {
-          "date": "2026-04-07",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1298",
-          "num": "",
-          "meeting_title": "4/7/26 Council Meeting - Apr 07, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1298"
-        },
-        {
-          "date": "2026-04-21",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1302",
-          "num": "",
-          "meeting_title": "4/21/26 Council Meeting - Apr 21, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1302"
-        },
-        {
-          "date": "2026-04-27",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1303",
-          "num": "",
-          "meeting_title": "Bidwell Park and Playground Commission - Apr 27, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1303"
-        },
-        {
-          "date": "2026-05-05",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1304",
-          "num": "",
-          "meeting_title": "5/5/26 Council Meeting - May 05, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1304"
-        },
-        {
-          "date": "2026-05-07",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1307",
-          "num": "",
-          "meeting_title": "Planning Commission - May 07, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1307"
-        },
-        {
-          "date": "2026-05-11",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1308",
-          "num": "",
-          "meeting_title": "3/16/26 City Council - Special Closed Session (No video) - Mar 16, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1308"
-        },
-        {
-          "date": "2026-05-14",
-          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1194",
-          "num": "",
-          "meeting_title": "5/19/26 Council Meeting - Budget Session Begins at 1:00 p.m. - May 19, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1194"
-        }
-      ],
-      "meeting_count": 38,
-      "status": "active"
-    },
-    {
       "id": "064a20a29f",
       "canonical_title": "The agenda for 3/16/26 City Council - Special Closed Session (No video) dated Monday, 16 March 2026  has been archived. Access it here:",
       "first_seen": "2025-09-02",
@@ -3599,6 +3210,13 @@
           "num": "",
           "meeting_title": "9/2/25 City Council and Special Closed Session - Sep 02, 2025",
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1235"
+        },
+        {
+          "date": "2026-03-17",
+          "title_seen": "The agenda for 3/17/26 Council Meeting dated Tuesday, 17 March 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "3/17/26 Council Meeting - Mar 17, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1288"
         },
         {
           "date": "2026-03-30",
@@ -3615,300 +3233,14 @@
           "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1308"
         }
       ],
-      "meeting_count": 3,
-      "status": "active"
-    },
-    {
-      "id": "3e8bb0976e",
-      "canonical_title": "The agenda for 2/20/25 Planning Commission Meeting dated Thursday, 20 February 2025  has been archived. Access it here:",
-      "first_seen": "2023-05-02",
-      "last_seen": "2026-05-07",
-      "appearances": [
-        {
-          "date": "2023-05-02",
-          "title_seen": "The agenda for 5/2/23 City Council dated Tuesday, 02 May 2023  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "5/2/23 City Council - May 02, 2023",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1122"
-        },
-        {
-          "date": "2023-05-16",
-          "title_seen": "The agenda for 5/16/23 City Council dated Tuesday, 16 May 2023  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "5/16/23 City Council - May 16, 2023",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1124"
-        },
-        {
-          "date": "2023-08-03",
-          "title_seen": "The agenda for Planning Commission dated Thursday, 03 August 2023  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Planning Commission - Aug 03, 2023",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1132"
-        },
-        {
-          "date": "2023-08-17",
-          "title_seen": "The agenda for Planning Commission dated Thursday, 17 August 2023  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Planning Commission - Aug 17, 2023",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1133"
-        },
-        {
-          "date": "2023-10-05",
-          "title_seen": "The agenda for Planning Commission dated Thursday, 05 October 2023  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Planning Commission - Oct 05, 2023",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1138"
-        },
-        {
-          "date": "2023-11-16",
-          "title_seen": "The agenda for Planning Commission dated Thursday, 16 November 2023  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Planning Commission - Nov 16, 2023",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1142"
-        },
-        {
-          "date": "2024-01-18",
-          "title_seen": "The agenda for Planning Commission dated Thursday, 18 January 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Planning Commission - Jan 18, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1151"
-        },
-        {
-          "date": "2024-02-01",
-          "title_seen": "The agenda for 2/1/24 Planning Commission dated Thursday, 01 February 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "2/1/24 Planning Commission - Feb 01, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1152"
-        },
-        {
-          "date": "2024-05-07",
-          "title_seen": "The agenda for 5/7/24 City Council dated Tuesday, 07 May 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "5/7/24 City Council - May 07, 2024",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1162"
-        },
-        {
-          "date": "2024-05-16",
-          "title_seen": "The agenda for Planning Commission dated Thursday, 16 May 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Planning Commission - May 16, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1163"
-        },
-        {
-          "date": "2024-05-21",
-          "title_seen": "The agenda for 5/21/24 City Council dated Tuesday, 21 May 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "5/21/24 City Council - May 21, 2024",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1165"
-        },
-        {
-          "date": "2024-06-06",
-          "title_seen": "The agenda for 6-6-2024 Planning Commission dated Thursday, 06 June 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "6-6-2024 Planning Commission - Jun 06, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1167"
-        },
-        {
-          "date": "2024-07-18",
-          "title_seen": "The agenda for 7/18/24 Planning Commission dated Thursday, 18 July 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "7/18/24 Planning Commission - Jul 18, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1174"
-        },
-        {
-          "date": "2024-09-05",
-          "title_seen": "The agenda for Planning Commission dated Thursday, 05 September 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Planning Commission - Sep 05, 2024",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1186"
-        },
-        {
-          "date": "2025-02-20",
-          "title_seen": "The agenda for 2/20/25 Planning Commission Meeting dated Thursday, 20 February 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "2/20/25 Planning Commission Meeting - Feb 20, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1209"
-        },
-        {
-          "date": "2025-03-20",
-          "title_seen": "The agenda for 3-20-2025 Planning Commission Meeting dated Thursday, 20 March 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "3-20-2025 Planning Commission Meeting - Mar 20, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1215"
-        },
-        {
-          "date": "2025-04-03",
-          "title_seen": "The agenda for 4-3-2025 Planning Commission Meeting dated Thursday, 03 April 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "4-3-2025 Planning Commission Meeting - Apr 03, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1218"
-        },
-        {
-          "date": "2025-05-15",
-          "title_seen": "The agenda for 5-15-2025 Planning Commission dated Thursday, 15 May 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "5-15-2025 Planning Commission - May 15, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1222"
-        },
-        {
-          "date": "2025-06-05",
-          "title_seen": "The agenda for 6-5-2025 Planning Commission dated Thursday, 05 June 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "6-5-2025 Planning Commission - Jun 05, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1226"
-        },
-        {
-          "date": "2025-07-17",
-          "title_seen": "The agenda for Planning Commission Meeting dated Thursday, 17 July 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Planning Commission Meeting - Jul 17, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1231"
-        },
-        {
-          "date": "2025-12-04",
-          "title_seen": "The agenda for Planning Commission dated Thursday, 04 December 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Planning Commission - Dec 04, 2025",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1245"
-        },
-        {
-          "date": "2026-02-19",
-          "title_seen": "The agenda for Planning Commission dated Thursday, 19 February 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Planning Commission - Feb 19, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1286"
-        },
-        {
-          "date": "2026-05-07",
-          "title_seen": "The agenda for Planning Commission dated Thursday, 07 May 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Planning Commission - May 07, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1307"
-        }
-      ],
-      "meeting_count": 23,
-      "status": "active"
-    },
-    {
-      "id": "feeeafad36",
-      "canonical_title": "The agenda for 10/27/25 Bidwell Park & Playground Commission dated Monday, 27 October 2025  has been archived. Access it here:",
-      "first_seen": "2024-03-25",
-      "last_seen": "2026-04-27",
-      "appearances": [
-        {
-          "date": "2024-03-25",
-          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 25 March 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Bidwell Park & Playground Commission - Mar 25, 2024",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1158"
-        },
-        {
-          "date": "2024-05-20",
-          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 20 May 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Bidwell Park & Playground Commission - May 20, 2024",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1164"
-        },
-        {
-          "date": "2024-08-26",
-          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 26 August 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Bidwell Park & Playground Commission - Aug 26, 2024",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1182"
-        },
-        {
-          "date": "2024-09-30",
-          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 30 September 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Bidwell Park & Playground Commission - Sep 30, 2024",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1190"
-        },
-        {
-          "date": "2024-11-18",
-          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 18 November 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Bidwell Park & Playground Commission - Nov 18, 2024",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1197"
-        },
-        {
-          "date": "2024-12-16",
-          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 16 December 2024  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Bidwell Park & Playground Commission - Dec 16, 2024",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1201"
-        },
-        {
-          "date": "2025-02-24",
-          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 24 February 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Bidwell Park & Playground Commission - Feb 24, 2025",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1210"
-        },
-        {
-          "date": "2025-03-31",
-          "title_seen": "The agenda for 3/31/25 Bidwell Park and Playground Commission dated Monday, 31 March 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "3/31/25 Bidwell Park and Playground Commission - Mar 31, 2025",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1216"
-        },
-        {
-          "date": "2025-04-28",
-          "title_seen": "The agenda for 4/28/25 Bidwell Park and Playground Commission dated Monday, 28 April 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "4/28/25 Bidwell Park and Playground Commission - Apr 28, 2025",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1220"
-        },
-        {
-          "date": "2025-05-19",
-          "title_seen": "The agenda for 5/19/25 Bidwell Park and Playground Commission dated Monday, 19 May 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "5/19/25 Bidwell Park and Playground Commission - May 19, 2025",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1223"
-        },
-        {
-          "date": "2025-07-28",
-          "title_seen": "The agenda for 7/28/25 Bidwell Park & Playground Commission dated Monday, 28 July 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "7/28/25 Bidwell Park & Playground Commission - Jul 28, 2025",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1232"
-        },
-        {
-          "date": "2025-08-25",
-          "title_seen": "The agenda for 8/25/25 Bidwell Park & Playground Commission dated Monday, 25 August 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "8/25/25 Bidwell Park & Playground Commission - Aug 25, 2025",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1234"
-        },
-        {
-          "date": "2025-10-27",
-          "title_seen": "The agenda for 10/27/25 Bidwell Park & Playground Commission dated Monday, 27 October 2025  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "10/27/25 Bidwell Park & Playground Commission - Oct 27, 2025",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1241"
-        },
-        {
-          "date": "2026-01-26",
-          "title_seen": "The agenda for Bidwell Park and Playground Commission dated Monday, 26 January 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Bidwell Park and Playground Commission - Jan 26, 2026",
-          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1281"
-        },
-        {
-          "date": "2026-04-27",
-          "title_seen": "The agenda for Bidwell Park and Playground Commission dated Monday, 27 April 2026  has been archived. Access it here:",
-          "num": "",
-          "meeting_title": "Bidwell Park and Playground Commission - Apr 27, 2026",
-          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1303"
-        }
-      ],
-      "meeting_count": 15,
+      "meeting_count": 4,
       "status": "active"
     },
     {
       "id": "111e9bf6d5",
       "canonical_title": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1004",
       "first_seen": "2021-08-03",
-      "last_seen": "2026-03-30",
+      "last_seen": "2026-05-11",
       "appearances": [
         {
           "date": "2021-08-03",
@@ -4184,6 +3516,20 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1131"
         },
         {
+          "date": "2023-08-03",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1132",
+          "num": "",
+          "meeting_title": "Planning Commission - Aug 03, 2023",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1132"
+        },
+        {
+          "date": "2023-08-17",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1133",
+          "num": "",
+          "meeting_title": "Planning Commission - Aug 17, 2023",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1133"
+        },
+        {
           "date": "2023-09-05",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1134",
           "num": "",
@@ -4205,6 +3551,13 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1136"
         },
         {
+          "date": "2023-10-05",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1138",
+          "num": "",
+          "meeting_title": "Planning Commission - Oct 05, 2023",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1138"
+        },
+        {
           "date": "2023-10-17",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1140",
           "num": "",
@@ -4219,11 +3572,25 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1141"
         },
         {
+          "date": "2023-11-16",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1142",
+          "num": "",
+          "meeting_title": "Planning Commission - Nov 16, 2023",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1142"
+        },
+        {
           "date": "2023-11-21",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1143",
           "num": "",
           "meeting_title": "11/21/23 Council Minutes - Nov 21, 2023",
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1143"
+        },
+        {
+          "date": "2023-12-05",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1145",
+          "num": "",
+          "meeting_title": "12/5/23 Council Meeting - Dec 05, 2023",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1145"
         },
         {
           "date": "2023-12-19",
@@ -4245,6 +3612,20 @@
           "num": "",
           "meeting_title": "1/16/24 Council Meeting - Jan 16, 2024",
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1149"
+        },
+        {
+          "date": "2024-01-18",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1151",
+          "num": "",
+          "meeting_title": "Planning Commission - Jan 18, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1151"
+        },
+        {
+          "date": "2024-02-01",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1152",
+          "num": "",
+          "meeting_title": "2/1/24 Planning Commission - Feb 01, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1152"
         },
         {
           "date": "2024-02-06",
@@ -4303,6 +3684,13 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1162"
         },
         {
+          "date": "2024-05-16",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1163",
+          "num": "",
+          "meeting_title": "Planning Commission - May 16, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1163"
+        },
+        {
           "date": "2024-05-20",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1164",
           "num": "",
@@ -4322,6 +3710,13 @@
           "num": "",
           "meeting_title": "6/4/24 City Council - Jun 04, 2024",
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1166"
+        },
+        {
+          "date": "2024-06-06",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1167",
+          "num": "",
+          "meeting_title": "6-6-2024 Planning Commission - Jun 06, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1167"
         },
         {
           "date": "2024-06-18",
@@ -4345,6 +3740,13 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1172"
         },
         {
+          "date": "2024-07-18",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1174",
+          "num": "",
+          "meeting_title": "7/18/24 Planning Commission - Jul 18, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1174"
+        },
+        {
           "date": "2024-08-20",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1180",
           "num": "",
@@ -4366,6 +3768,13 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1185"
         },
         {
+          "date": "2024-09-05",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1186",
+          "num": "",
+          "meeting_title": "Planning Commission - Sep 05, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1186"
+        },
+        {
           "date": "2024-09-17",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1188",
           "num": "",
@@ -4385,6 +3794,13 @@
           "num": "",
           "meeting_title": "10/1/24 City Council - Oct 01, 2024",
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1191"
+        },
+        {
+          "date": "2024-10-15",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1194",
+          "num": "",
+          "meeting_title": "10/15/24 City Council - Oct 15, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1194"
         },
         {
           "date": "2024-11-05",
@@ -4457,6 +3873,13 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1208"
         },
         {
+          "date": "2025-02-20",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1209",
+          "num": "",
+          "meeting_title": "2/20/25 Planning Commission Meeting - Feb 20, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1209"
+        },
+        {
           "date": "2025-02-24",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1210",
           "num": "",
@@ -4485,6 +3908,13 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1213"
         },
         {
+          "date": "2025-03-20",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1215",
+          "num": "",
+          "meeting_title": "3-20-2025 Planning Commission Meeting - Mar 20, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1215"
+        },
+        {
           "date": "2025-03-31",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1216",
           "num": "",
@@ -4497,6 +3927,13 @@
           "num": "",
           "meeting_title": "4/1/25 City Council - Apr 01, 2025",
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1217"
+        },
+        {
+          "date": "2025-04-03",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1218",
+          "num": "",
+          "meeting_title": "4-3-2025 Planning Commission Meeting - Apr 03, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1218"
         },
         {
           "date": "2025-04-15",
@@ -4520,6 +3957,13 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1221"
         },
         {
+          "date": "2025-05-15",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1222",
+          "num": "",
+          "meeting_title": "5-15-2025 Planning Commission - May 15, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1222"
+        },
+        {
           "date": "2025-05-19",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1223",
           "num": "",
@@ -4541,6 +3985,13 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1225"
         },
         {
+          "date": "2025-06-05",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1226",
+          "num": "",
+          "meeting_title": "6-5-2025 Planning Commission - Jun 05, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1226"
+        },
+        {
           "date": "2025-06-17",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1229",
           "num": "",
@@ -4553,6 +4004,13 @@
           "num": "",
           "meeting_title": "7/8/25 City Council - Jul 08, 2025",
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1230"
+        },
+        {
+          "date": "2025-07-17",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1231",
+          "num": "",
+          "meeting_title": "Planning Commission Meeting - Jul 17, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1231"
         },
         {
           "date": "2025-07-28",
@@ -4590,11 +4048,67 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1236"
         },
         {
+          "date": "2025-10-07",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1237",
+          "num": "",
+          "meeting_title": "10/7/25 Council Meeting - Oct 07, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1237"
+        },
+        {
+          "date": "2025-10-21",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1240",
+          "num": "",
+          "meeting_title": "10/21/25 Council Meeting - Oct 21, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1240"
+        },
+        {
           "date": "2025-10-27",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1241",
           "num": "",
           "meeting_title": "10/27/25 Bidwell Park & Playground Commission - Oct 27, 2025",
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1241"
+        },
+        {
+          "date": "2025-11-04",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1242",
+          "num": "",
+          "meeting_title": "Council Meeting - Nov 04, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1242"
+        },
+        {
+          "date": "2025-11-18",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1243",
+          "num": "",
+          "meeting_title": "11/18/25 Council Meeting - Nov 18, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1243"
+        },
+        {
+          "date": "2025-12-02",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1244",
+          "num": "",
+          "meeting_title": "12/2/25 Council Meeting - Dec 02, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1244"
+        },
+        {
+          "date": "2025-12-04",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1245",
+          "num": "",
+          "meeting_title": "Planning Commission - Dec 04, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1245"
+        },
+        {
+          "date": "2026-01-06",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1264",
+          "num": "",
+          "meeting_title": "1/6/26 Council Meeting - Jan 06, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1264"
+        },
+        {
+          "date": "2026-01-20",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1276",
+          "num": "",
+          "meeting_title": "1/20/26 Council Meeting - Jan 20, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1276"
         },
         {
           "date": "2026-01-26",
@@ -4604,14 +4118,398 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1281"
         },
         {
+          "date": "2026-02-03",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1283",
+          "num": "",
+          "meeting_title": "2/3/26 Council Meeting - Feb 03, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1283"
+        },
+        {
+          "date": "2026-02-17",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1285",
+          "num": "",
+          "meeting_title": "2/17/26 Council Meeting - Feb 17, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1285"
+        },
+        {
+          "date": "2026-02-19",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1286",
+          "num": "",
+          "meeting_title": "Planning Commission - Feb 19, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1286"
+        },
+        {
+          "date": "2026-03-03",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1287",
+          "num": "",
+          "meeting_title": "3/3/26 Council Meeting & Posted Addendum - Mar 03, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1287"
+        },
+        {
+          "date": "2026-03-17",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1288",
+          "num": "",
+          "meeting_title": "3/17/26 Council Meeting - Mar 17, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1288"
+        },
+        {
           "date": "2026-03-30",
           "title_seen": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1295",
           "num": "",
           "meeting_title": "Bidwell Park and Playground Commission - Mar 30, 2026",
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1295"
+        },
+        {
+          "date": "2026-04-07",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1298",
+          "num": "",
+          "meeting_title": "4/7/26 Council Meeting - Apr 07, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1298"
+        },
+        {
+          "date": "2026-04-21",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1302",
+          "num": "",
+          "meeting_title": "4/21/26 Council Meeting - Apr 21, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1302"
+        },
+        {
+          "date": "2026-04-27",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1303",
+          "num": "",
+          "meeting_title": "Bidwell Park and Playground Commission - Apr 27, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1303"
+        },
+        {
+          "date": "2026-05-05",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1304",
+          "num": "",
+          "meeting_title": "5/5/26 Council Meeting - May 05, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1304"
+        },
+        {
+          "date": "2026-05-07",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1307",
+          "num": "",
+          "meeting_title": "Planning Commission - May 07, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1307"
+        },
+        {
+          "date": "2026-05-11",
+          "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1308",
+          "num": "",
+          "meeting_title": "3/16/26 City Council - Special Closed Session (No video) - Mar 16, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1308"
         }
       ],
-      "meeting_count": 100,
+      "meeting_count": 137,
+      "status": "active"
+    },
+    {
+      "id": "3e8bb0976e",
+      "canonical_title": "The agenda for 2/20/25 Planning Commission Meeting dated Thursday, 20 February 2025  has been archived. Access it here:",
+      "first_seen": "2023-05-02",
+      "last_seen": "2026-05-07",
+      "appearances": [
+        {
+          "date": "2023-05-02",
+          "title_seen": "The agenda for 5/2/23 City Council dated Tuesday, 02 May 2023  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "5/2/23 City Council - May 02, 2023",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1122"
+        },
+        {
+          "date": "2023-05-16",
+          "title_seen": "The agenda for 5/16/23 City Council dated Tuesday, 16 May 2023  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "5/16/23 City Council - May 16, 2023",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1124"
+        },
+        {
+          "date": "2023-08-03",
+          "title_seen": "The agenda for Planning Commission dated Thursday, 03 August 2023  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Planning Commission - Aug 03, 2023",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1132"
+        },
+        {
+          "date": "2023-08-17",
+          "title_seen": "The agenda for Planning Commission dated Thursday, 17 August 2023  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Planning Commission - Aug 17, 2023",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1133"
+        },
+        {
+          "date": "2023-10-05",
+          "title_seen": "The agenda for Planning Commission dated Thursday, 05 October 2023  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Planning Commission - Oct 05, 2023",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1138"
+        },
+        {
+          "date": "2023-11-16",
+          "title_seen": "The agenda for Planning Commission dated Thursday, 16 November 2023  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Planning Commission - Nov 16, 2023",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1142"
+        },
+        {
+          "date": "2024-01-18",
+          "title_seen": "The agenda for Planning Commission dated Thursday, 18 January 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Planning Commission - Jan 18, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1151"
+        },
+        {
+          "date": "2024-02-01",
+          "title_seen": "The agenda for 2/1/24 Planning Commission dated Thursday, 01 February 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "2/1/24 Planning Commission - Feb 01, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1152"
+        },
+        {
+          "date": "2024-05-07",
+          "title_seen": "The agenda for 5/7/24 City Council dated Tuesday, 07 May 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "5/7/24 City Council - May 07, 2024",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1162"
+        },
+        {
+          "date": "2024-05-16",
+          "title_seen": "The agenda for Planning Commission dated Thursday, 16 May 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Planning Commission - May 16, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1163"
+        },
+        {
+          "date": "2024-05-21",
+          "title_seen": "The agenda for 5/21/24 City Council dated Tuesday, 21 May 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "5/21/24 City Council - May 21, 2024",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1165"
+        },
+        {
+          "date": "2024-06-06",
+          "title_seen": "The agenda for 6-6-2024 Planning Commission dated Thursday, 06 June 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "6-6-2024 Planning Commission - Jun 06, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1167"
+        },
+        {
+          "date": "2024-07-18",
+          "title_seen": "The agenda for 7/18/24 Planning Commission dated Thursday, 18 July 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "7/18/24 Planning Commission - Jul 18, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1174"
+        },
+        {
+          "date": "2024-09-05",
+          "title_seen": "The agenda for Planning Commission dated Thursday, 05 September 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Planning Commission - Sep 05, 2024",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1186"
+        },
+        {
+          "date": "2025-02-20",
+          "title_seen": "The agenda for 2/20/25 Planning Commission Meeting dated Thursday, 20 February 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "2/20/25 Planning Commission Meeting - Feb 20, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1209"
+        },
+        {
+          "date": "2025-03-20",
+          "title_seen": "The agenda for 3-20-2025 Planning Commission Meeting dated Thursday, 20 March 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "3-20-2025 Planning Commission Meeting - Mar 20, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1215"
+        },
+        {
+          "date": "2025-04-03",
+          "title_seen": "The agenda for 4-3-2025 Planning Commission Meeting dated Thursday, 03 April 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "4-3-2025 Planning Commission Meeting - Apr 03, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1218"
+        },
+        {
+          "date": "2025-05-15",
+          "title_seen": "The agenda for 5-15-2025 Planning Commission dated Thursday, 15 May 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "5-15-2025 Planning Commission - May 15, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1222"
+        },
+        {
+          "date": "2025-06-05",
+          "title_seen": "The agenda for 6-5-2025 Planning Commission dated Thursday, 05 June 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "6-5-2025 Planning Commission - Jun 05, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1226"
+        },
+        {
+          "date": "2025-07-17",
+          "title_seen": "The agenda for Planning Commission Meeting dated Thursday, 17 July 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Planning Commission Meeting - Jul 17, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1231"
+        },
+        {
+          "date": "2025-12-04",
+          "title_seen": "The agenda for Planning Commission dated Thursday, 04 December 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Planning Commission - Dec 04, 2025",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1245"
+        },
+        {
+          "date": "2026-02-19",
+          "title_seen": "The agenda for Planning Commission dated Thursday, 19 February 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Planning Commission - Feb 19, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1286"
+        },
+        {
+          "date": "2026-05-05",
+          "title_seen": "The agenda for 5/5/26 Council Meeting dated Tuesday, 05 May 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "5/5/26 Council Meeting - May 05, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1304"
+        },
+        {
+          "date": "2026-05-07",
+          "title_seen": "The agenda for Planning Commission dated Thursday, 07 May 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Planning Commission - May 07, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1307"
+        }
+      ],
+      "meeting_count": 24,
+      "status": "active"
+    },
+    {
+      "id": "feeeafad36",
+      "canonical_title": "The agenda for 10/27/25 Bidwell Park & Playground Commission dated Monday, 27 October 2025  has been archived. Access it here:",
+      "first_seen": "2024-03-25",
+      "last_seen": "2026-04-27",
+      "appearances": [
+        {
+          "date": "2024-03-25",
+          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 25 March 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Bidwell Park & Playground Commission - Mar 25, 2024",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1158"
+        },
+        {
+          "date": "2024-05-20",
+          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 20 May 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Bidwell Park & Playground Commission - May 20, 2024",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1164"
+        },
+        {
+          "date": "2024-08-26",
+          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 26 August 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Bidwell Park & Playground Commission - Aug 26, 2024",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1182"
+        },
+        {
+          "date": "2024-09-30",
+          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 30 September 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Bidwell Park & Playground Commission - Sep 30, 2024",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1190"
+        },
+        {
+          "date": "2024-11-18",
+          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 18 November 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Bidwell Park & Playground Commission - Nov 18, 2024",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1197"
+        },
+        {
+          "date": "2024-12-16",
+          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 16 December 2024  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Bidwell Park & Playground Commission - Dec 16, 2024",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1201"
+        },
+        {
+          "date": "2025-02-24",
+          "title_seen": "The agenda for Bidwell Park & Playground Commission dated Monday, 24 February 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Bidwell Park & Playground Commission - Feb 24, 2025",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1210"
+        },
+        {
+          "date": "2025-03-31",
+          "title_seen": "The agenda for 3/31/25 Bidwell Park and Playground Commission dated Monday, 31 March 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "3/31/25 Bidwell Park and Playground Commission - Mar 31, 2025",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1216"
+        },
+        {
+          "date": "2025-04-28",
+          "title_seen": "The agenda for 4/28/25 Bidwell Park and Playground Commission dated Monday, 28 April 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "4/28/25 Bidwell Park and Playground Commission - Apr 28, 2025",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1220"
+        },
+        {
+          "date": "2025-05-19",
+          "title_seen": "The agenda for 5/19/25 Bidwell Park and Playground Commission dated Monday, 19 May 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "5/19/25 Bidwell Park and Playground Commission - May 19, 2025",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1223"
+        },
+        {
+          "date": "2025-07-28",
+          "title_seen": "The agenda for 7/28/25 Bidwell Park & Playground Commission dated Monday, 28 July 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "7/28/25 Bidwell Park & Playground Commission - Jul 28, 2025",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1232"
+        },
+        {
+          "date": "2025-08-25",
+          "title_seen": "The agenda for 8/25/25 Bidwell Park & Playground Commission dated Monday, 25 August 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "8/25/25 Bidwell Park & Playground Commission - Aug 25, 2025",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1234"
+        },
+        {
+          "date": "2025-10-27",
+          "title_seen": "The agenda for 10/27/25 Bidwell Park & Playground Commission dated Monday, 27 October 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "10/27/25 Bidwell Park & Playground Commission - Oct 27, 2025",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1241"
+        },
+        {
+          "date": "2026-01-26",
+          "title_seen": "The agenda for Bidwell Park and Playground Commission dated Monday, 26 January 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Bidwell Park and Playground Commission - Jan 26, 2026",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1281"
+        },
+        {
+          "date": "2026-04-07",
+          "title_seen": "The agenda for 4/7/26 Council Meeting dated Tuesday, 07 April 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "4/7/26 Council Meeting - Apr 07, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1298"
+        },
+        {
+          "date": "2026-04-21",
+          "title_seen": "The agenda for 4/21/26 Council Meeting dated Tuesday, 21 April 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "4/21/26 Council Meeting - Apr 21, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1302"
+        },
+        {
+          "date": "2026-04-27",
+          "title_seen": "The agenda for Bidwell Park and Playground Commission dated Monday, 27 April 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "Bidwell Park and Playground Commission - Apr 27, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1303"
+        }
+      ],
+      "meeting_count": 17,
       "status": "active"
     },
     {
@@ -4682,6 +4580,13 @@
           "num": "",
           "meeting_title": "4/5/22 City Council Meeting - Apr 05, 2022",
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1061"
+        },
+        {
+          "date": "2022-05-03",
+          "title_seen": "The agenda for 5/3/22 City Council Meeting dated Tuesday, 03 May 2022  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "5/3/22 City Council Meeting - May 03, 2022",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1065"
         },
         {
           "date": "2022-06-07",
@@ -4768,6 +4673,13 @@
           "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1212"
         },
         {
+          "date": "2025-05-20",
+          "title_seen": "The agenda for 5/20/25 City Council Meeting dated Tuesday, 20 May 2025  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "5/20/25 City Council Meeting - May 20, 2025",
+          "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1224"
+        },
+        {
           "date": "2025-10-07",
           "title_seen": "The agenda for 10/7/25 Council Meeting dated Tuesday, 07 October 2025  has been archived. Access it here:",
           "num": "",
@@ -4803,6 +4715,34 @@
           "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1244"
         },
         {
+          "date": "2026-01-06",
+          "title_seen": "The agenda for 1/6/26 Council Meeting dated Tuesday, 06 January 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "1/6/26 Council Meeting - Jan 06, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1264"
+        },
+        {
+          "date": "2026-01-20",
+          "title_seen": "The agenda for 1/20/26 Council Meeting dated Tuesday, 20 January 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "1/20/26 Council Meeting - Jan 20, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1276"
+        },
+        {
+          "date": "2026-02-03",
+          "title_seen": "The agenda for 2/3/26 Council Meeting dated Tuesday, 03 February 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "2/3/26 Council Meeting - Feb 03, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1283"
+        },
+        {
+          "date": "2026-02-17",
+          "title_seen": "The agenda for 2/17/26 Council Meeting dated Tuesday, 17 February 2026  has been archived. Access it here:",
+          "num": "",
+          "meeting_title": "2/17/26 Council Meeting - Feb 17, 2026",
+          "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1285"
+        },
+        {
           "date": "2026-03-03",
           "title_seen": "The agenda for 3/3/26 Council Meeting & Posted Addendum dated Tuesday, 03 March 2026  has been archived. Access it here:",
           "num": "",
@@ -4810,7 +4750,7 @@
           "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1287"
         }
       ],
-      "meeting_count": 27,
+      "meeting_count": 33,
       "status": "active"
     },
     {
@@ -5219,8 +5159,8 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-05-19T10:29:49.508740+00:00",
-  "last_items_hash": "babee1d2359df8e9",
+  "last_updated": "2026-05-19T20:24:13.683502+00:00",
+  "last_items_hash": "4184ee02d7fbfca5",
   "changed": true,
   "prev_bill_ids": [
     "3e3906b72e",
@@ -5228,8 +5168,8 @@
     "064a20a29f",
     "3e8bb0976e",
     "feeeafad36",
-    "55f18631cd",
-    "d8d59af4f0",
+    "111e9bf6d5",
+    "3f677737fe",
     "e3a8bd19b1",
     "3887b6fa34"
   ],
@@ -5370,6 +5310,7 @@
     "2021-10-05",
     "2021-09-27",
     "2021-09-21",
-    "2021-09-07"
+    "2021-09-07",
+    "2021-08-03"
   ]
 }
