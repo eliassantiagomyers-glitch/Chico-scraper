@@ -5224,19 +5224,21 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-05-28T10:43:24.617644+00:00",
+  "last_updated": "2026-05-28T21:02:42.071232+00:00",
   "last_items_hash": "6939a7519d855e18",
-  "changed": true,
+  "changed": false,
   "prev_bill_ids": [
     "3f677737fe",
-    "111e9bf6d5",
+    "3f3d7785e4",
     "064a20a29f",
-    "8ce1ebf441",
+    "3e8bb0976e",
     "feeeafad36",
+    "111e9bf6d5",
     "e3a8bd19b1",
     "3887b6fa34"
   ],
   "prev_meeting_dates": [
+    "2026-05-27",
     "2026-05-19",
     "2026-05-11",
     "2026-05-07",
