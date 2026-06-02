@@ -3,7 +3,7 @@
     {
       "title": "6/2/26 Council Meeting - Jun 02, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1195",
-      "date": "2026-05-27",
+      "date": "2026-06-02",
       "guid": "3d54cc69-3bf3-4f16-ba29-98f9e14d85a2",
       "raw_desc": "<p style='margin-top:2px;'>\nThe agenda for 6/2/26 Council Meeting dated Tuesday, 02 June 2026  has been published. Access it here:<br />      <a href=\"https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1195\" style='margin-right:50px;'>https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1195</a>\n      </p>",
       "description": "The agenda for 6/2/26 Council Meeting dated Tuesday, 02 June 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1195",
@@ -3368,7 +3368,7 @@
       "id": "3f677737fe",
       "canonical_title": "The agenda for 5/19/26 Council Meeting - Budget Session Begins at 1:00 p.m. dated Tuesday, 19 May 2026  has been archived. Access it here:",
       "first_seen": "2021-08-03",
-      "last_seen": "2026-05-27",
+      "last_seen": "2026-06-02",
       "appearances": [
         {
           "date": "2021-08-03",
@@ -3644,7 +3644,7 @@
           "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1309"
         },
         {
-          "date": "2026-05-27",
+          "date": "2026-06-02",
           "title_seen": "The agenda for 6/2/26 Council Meeting dated Tuesday, 02 June 2026  has been published. Access it here:",
           "num": "",
           "meeting_title": "6/2/26 Council Meeting - Jun 02, 2026",
@@ -3658,7 +3658,7 @@
       "id": "3f3d7785e4",
       "canonical_title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1195",
       "first_seen": "2023-08-03",
-      "last_seen": "2026-05-27",
+      "last_seen": "2026-06-02",
       "appearances": [
         {
           "date": "2023-08-03",
@@ -3927,7 +3927,7 @@
           "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1309"
         },
         {
-          "date": "2026-05-27",
+          "date": "2026-06-02",
           "title_seen": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1195",
           "num": "",
           "meeting_title": "6/2/26 Council Meeting - Jun 02, 2026",
@@ -5363,9 +5363,9 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-06-02T16:28:22.065093+00:00",
-  "last_items_hash": "6939a7519d855e18",
-  "changed": false,
+  "last_updated": "2026-06-02T21:41:16.627142+00:00",
+  "last_items_hash": "04fad42bb4e330ab",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "3f3d7785e4",
