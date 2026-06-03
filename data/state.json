@@ -5356,18 +5356,17 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-06-03T11:49:28.030508+00:00",
+  "last_updated": "2026-06-03T14:18:36.410743+00:00",
   "last_items_hash": "3e22007b50de6a97",
-  "changed": true,
+  "changed": false,
   "prev_bill_ids": [
     "3f677737fe",
-    "3f3d7785e4",
-    "064a20a29f",
-    "3e8bb0976e",
-    "feeeafad36",
     "111e9bf6d5",
+    "064a20a29f",
+    "8ce1ebf441",
+    "feeeafad36",
     "e3a8bd19b1",
-    "3887b6fa34"
+    "cce0c46776"
   ],
   "prev_meeting_dates": [
     "2026-06-02",
