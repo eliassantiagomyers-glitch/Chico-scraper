@@ -5356,7 +5356,7 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-06-06T12:05:39.806219+00:00",
+  "last_updated": "2026-06-06T14:41:51.124297+00:00",
   "last_items_hash": "3e22007b50de6a97",
   "changed": false,
   "prev_bill_ids": [
@@ -5529,8 +5529,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:06:00.851914+00:00",
-      "updated_at": "2026-06-06T12:06:00.851930+00:00"
+      "flagged_at": "2026-06-06T14:42:12.885599+00:00",
+      "updated_at": "2026-06-06T14:42:12.885614+00:00"
     },
     {
       "bill_id": "ocd-bill/9d4eb704-0f0d-4cf9-8782-71e1befba186",
@@ -5551,8 +5551,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:06:38.897808+00:00",
-      "updated_at": "2026-06-06T12:06:38.897825+00:00"
+      "flagged_at": "2026-06-06T14:43:54.412945+00:00",
+      "updated_at": "2026-06-06T14:43:54.412962+00:00"
     },
     {
       "bill_id": "ocd-bill/7a4449fe-5de1-4821-8068-f4835984b42d",
@@ -5573,8 +5573,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:06:49.967687+00:00",
-      "updated_at": "2026-06-06T12:06:49.967703+00:00"
+      "flagged_at": "2026-06-06T14:44:05.655978+00:00",
+      "updated_at": "2026-06-06T14:44:05.655992+00:00"
     },
     {
       "bill_id": "ocd-bill/fc958b42-2019-4c42-8500-b4325308d7ed",
@@ -5595,8 +5595,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:08:27.870663+00:00",
-      "updated_at": "2026-06-06T12:08:27.870680+00:00"
+      "flagged_at": "2026-06-06T14:45:43.698126+00:00",
+      "updated_at": "2026-06-06T14:45:43.698139+00:00"
     },
     {
       "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
@@ -5617,8 +5617,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:08:38.558047+00:00",
-      "updated_at": "2026-06-06T12:08:38.558063+00:00"
+      "flagged_at": "2026-06-06T14:47:22.098949+00:00",
+      "updated_at": "2026-06-06T14:47:22.098962+00:00"
     },
     {
       "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
@@ -5639,8 +5639,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:10:16.254452+00:00",
-      "updated_at": "2026-06-06T12:10:16.254469+00:00"
+      "flagged_at": "2026-06-06T14:47:33.054820+00:00",
+      "updated_at": "2026-06-06T14:47:33.054833+00:00"
     },
     {
       "bill_id": "ocd-bill/cff7abbd-56d6-4ac0-87af-0accebb14159",
@@ -5661,8 +5661,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:12:14.182602+00:00",
-      "updated_at": "2026-06-06T12:12:14.182618+00:00"
+      "flagged_at": "2026-06-06T14:49:11.196419+00:00",
+      "updated_at": "2026-06-06T14:49:11.196433+00:00"
     },
     {
       "bill_id": "ocd-bill/a4aab95d-dd0c-4cbd-a800-698c26c608c3",
@@ -5683,8 +5683,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:12:52.039702+00:00",
-      "updated_at": "2026-06-06T12:12:52.039719+00:00"
+      "flagged_at": "2026-06-06T14:50:49.390985+00:00",
+      "updated_at": "2026-06-06T14:50:49.391001+00:00"
     },
     {
       "bill_id": "ocd-bill/6839febe-208a-496a-98d0-63e5df01e201",
@@ -5705,8 +5705,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:14:29.720280+00:00",
-      "updated_at": "2026-06-06T12:14:29.720297+00:00"
+      "flagged_at": "2026-06-06T14:52:27.474464+00:00",
+      "updated_at": "2026-06-06T14:52:27.474478+00:00"
     },
     {
       "bill_id": "ocd-bill/b7d7006b-cbce-4f7d-9ced-da6a7e19dc0b",
@@ -5727,8 +5727,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:16:07.369439+00:00",
-      "updated_at": "2026-06-06T12:16:07.369455+00:00"
+      "flagged_at": "2026-06-06T14:54:05.555304+00:00",
+      "updated_at": "2026-06-06T14:54:05.555317+00:00"
     },
     {
       "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
@@ -5749,8 +5749,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:17:45.069460+00:00",
-      "updated_at": "2026-06-06T12:17:45.069477+00:00"
+      "flagged_at": "2026-06-06T14:55:43.855997+00:00",
+      "updated_at": "2026-06-06T14:55:43.856011+00:00"
     },
     {
       "bill_id": "ocd-bill/fb70803c-2a12-426d-80a0-a9ec5b97d6af",
@@ -5771,8 +5771,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:19:22.745721+00:00",
-      "updated_at": "2026-06-06T12:19:22.745737+00:00"
+      "flagged_at": "2026-06-06T14:57:21.971663+00:00",
+      "updated_at": "2026-06-06T14:57:21.971677+00:00"
     },
     {
       "bill_id": "ocd-bill/e1e28dc1-829e-49dd-b3b9-7d1395195963",
@@ -5793,8 +5793,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:21:00.420299+00:00",
-      "updated_at": "2026-06-06T12:21:00.420316+00:00"
+      "flagged_at": "2026-06-06T14:59:00.063889+00:00",
+      "updated_at": "2026-06-06T14:59:00.063925+00:00"
     },
     {
       "bill_id": "ocd-bill/4f55c79b-8445-4d68-ba37-2da51a004b88",
@@ -5815,10 +5815,54 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T12:22:38.128683+00:00",
-      "updated_at": "2026-06-06T12:22:38.128699+00:00"
+      "flagged_at": "2026-06-06T15:00:38.268633+00:00",
+      "updated_at": "2026-06-06T15:00:38.268648+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/4f85f996-f2b4-4bba-9e79-dafe03784b49",
+      "bill_number": "SB 582",
+      "title": "Health and care facilities: licensing during emergencies or disasters.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/20252026/SB 582/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-06-06T15:02:16.305761+00:00",
+      "updated_at": "2026-06-06T15:02:16.305774+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/bce85920-4fef-4908-b425-0933a603c75f",
+      "bill_number": "AJR 11",
+      "title": "Building Resilient Infrastructure and Communities program: federal funding cuts.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/20252026/AJR 11/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-06-06T15:03:54.430290+00:00",
+      "updated_at": "2026-06-06T15:03:54.430305+00:00"
     }
   ],
-  "legislation_last_updated": "2026-06-06T12:22:38.128721+00:00",
-  "legislation_flagged_count": 14
+  "legislation_last_updated": "2026-06-06T15:03:54.430330+00:00",
+  "legislation_flagged_count": 16
 }
