@@ -5356,7 +5356,7 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-06-06T00:07:01.103331+00:00",
+  "last_updated": "2026-06-06T04:53:40.189588+00:00",
   "last_items_hash": "3e22007b50de6a97",
   "changed": false,
   "prev_bill_ids": [
@@ -5529,8 +5529,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:07:21.490261+00:00",
-      "updated_at": "2026-06-06T00:07:21.490277+00:00"
+      "flagged_at": "2026-06-06T04:54:00.958082+00:00",
+      "updated_at": "2026-06-06T04:54:00.958097+00:00"
     },
     {
       "bill_id": "ocd-bill/9d4eb704-0f0d-4cf9-8782-71e1befba186",
@@ -5551,8 +5551,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:07:32.388963+00:00",
-      "updated_at": "2026-06-06T00:07:32.388977+00:00"
+      "flagged_at": "2026-06-06T04:54:11.462245+00:00",
+      "updated_at": "2026-06-06T04:54:11.462261+00:00"
     },
     {
       "bill_id": "ocd-bill/7a4449fe-5de1-4821-8068-f4835984b42d",
@@ -5573,8 +5573,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:07:43.092741+00:00",
-      "updated_at": "2026-06-06T00:07:43.092753+00:00"
+      "flagged_at": "2026-06-06T04:55:49.012097+00:00",
+      "updated_at": "2026-06-06T04:55:49.012113+00:00"
     },
     {
       "bill_id": "ocd-bill/fc958b42-2019-4c42-8500-b4325308d7ed",
@@ -5595,8 +5595,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:08:23.854483+00:00",
-      "updated_at": "2026-06-06T00:08:23.854496+00:00"
+      "flagged_at": "2026-06-06T04:56:29.983643+00:00",
+      "updated_at": "2026-06-06T04:56:29.983657+00:00"
     },
     {
       "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
@@ -5612,20 +5612,13 @@
       "committee": "",
       "sponsors": [],
       "rep_votes": {},
-      "explanation": "The provided information for AB 130 is limited to its title, 'Housing,' with no abstract or details on its content. Without the bill's specific provisions, it is impossible to determine what it does or how it would specifically affect Chico or Butte County residents, such as its impact on housing development, affordability, or local zoning regulations.",
-      "local_angle": "Without the bill's content, there is no specific local angle to report on at this time.",
-      "topics": [
-        "housing",
-        "legislation",
-        "state politics"
-      ],
-      "rep_vote_notes": {
-        "James Gallagher": "No vote recorded, so there is no immediate impact for AD-3 constituents from his vote on this bill.",
-        "Megan Dahle": "No vote recorded, so there is no immediate impact for SD-1 constituents from her vote on this bill."
-      },
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:10:04.445076+00:00",
-      "updated_at": "2026-06-06T00:10:04.445092+00:00"
+      "flagged_at": "2026-06-06T04:58:07.803540+00:00",
+      "updated_at": "2026-06-06T04:58:07.803556+00:00"
     },
     {
       "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
@@ -5646,8 +5639,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:11:42.519422+00:00",
-      "updated_at": "2026-06-06T00:11:42.519438+00:00"
+      "flagged_at": "2026-06-06T04:59:45.551793+00:00",
+      "updated_at": "2026-06-06T04:59:45.551809+00:00"
     },
     {
       "bill_id": "ocd-bill/cff7abbd-56d6-4ac0-87af-0accebb14159",
@@ -5668,8 +5661,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:13:20.274587+00:00",
-      "updated_at": "2026-06-06T00:13:20.274603+00:00"
+      "flagged_at": "2026-06-06T05:01:23.405693+00:00",
+      "updated_at": "2026-06-06T05:01:23.405710+00:00"
     },
     {
       "bill_id": "ocd-bill/a4aab95d-dd0c-4cbd-a800-698c26c608c3",
@@ -5690,8 +5683,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:14:59.127966+00:00",
-      "updated_at": "2026-06-06T00:14:59.127981+00:00"
+      "flagged_at": "2026-06-06T05:03:01.183704+00:00",
+      "updated_at": "2026-06-06T05:03:01.183720+00:00"
     },
     {
       "bill_id": "ocd-bill/6839febe-208a-496a-98d0-63e5df01e201",
@@ -5712,8 +5705,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:16:36.999225+00:00",
-      "updated_at": "2026-06-06T00:16:36.999240+00:00"
+      "flagged_at": "2026-06-06T05:03:41.822666+00:00",
+      "updated_at": "2026-06-06T05:03:41.822681+00:00"
     },
     {
       "bill_id": "ocd-bill/b7d7006b-cbce-4f7d-9ced-da6a7e19dc0b",
@@ -5734,8 +5727,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:18:14.761321+00:00",
-      "updated_at": "2026-06-06T00:18:14.761333+00:00"
+      "flagged_at": "2026-06-06T05:05:19.473802+00:00",
+      "updated_at": "2026-06-06T05:05:19.473817+00:00"
     },
     {
       "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
@@ -5756,8 +5749,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:19:52.665057+00:00",
-      "updated_at": "2026-06-06T00:19:52.665071+00:00"
+      "flagged_at": "2026-06-06T05:06:57.174506+00:00",
+      "updated_at": "2026-06-06T05:06:57.174522+00:00"
     },
     {
       "bill_id": "ocd-bill/fb70803c-2a12-426d-80a0-a9ec5b97d6af",
@@ -5778,8 +5771,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:21:30.852008+00:00",
-      "updated_at": "2026-06-06T00:21:30.852022+00:00"
+      "flagged_at": "2026-06-06T05:08:34.818161+00:00",
+      "updated_at": "2026-06-06T05:08:34.818177+00:00"
     },
     {
       "bill_id": "ocd-bill/e1e28dc1-829e-49dd-b3b9-7d1395195963",
@@ -5800,8 +5793,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:23:09.033824+00:00",
-      "updated_at": "2026-06-06T00:23:09.033835+00:00"
+      "flagged_at": "2026-06-06T05:10:12.571724+00:00",
+      "updated_at": "2026-06-06T05:10:12.571740+00:00"
     },
     {
       "bill_id": "ocd-bill/4f55c79b-8445-4d68-ba37-2da51a004b88",
@@ -5822,10 +5815,10 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T00:24:46.861640+00:00",
-      "updated_at": "2026-06-06T00:24:46.861651+00:00"
+      "flagged_at": "2026-06-06T05:11:00.457623+00:00",
+      "updated_at": "2026-06-06T05:11:00.457638+00:00"
     }
   ],
-  "legislation_last_updated": "2026-06-06T00:24:46.861671+00:00",
+  "legislation_last_updated": "2026-06-06T05:11:00.457661+00:00",
   "legislation_flagged_count": 14
 }
