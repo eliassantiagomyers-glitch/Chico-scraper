@@ -5356,7 +5356,7 @@
       "status": "active"
     }
   ],
-  "last_updated": "2026-06-06T07:46:19.841550+00:00",
+  "last_updated": "2026-06-06T10:04:48.181752+00:00",
   "last_items_hash": "3e22007b50de6a97",
   "changed": false,
   "prev_bill_ids": [
@@ -5529,8 +5529,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:46:40.502501+00:00",
-      "updated_at": "2026-06-06T07:46:40.502516+00:00"
+      "flagged_at": "2026-06-06T10:05:18.609711+00:00",
+      "updated_at": "2026-06-06T10:05:18.609722+00:00"
     },
     {
       "bill_id": "ocd-bill/9d4eb704-0f0d-4cf9-8782-71e1befba186",
@@ -5551,8 +5551,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:46:51.131946+00:00",
-      "updated_at": "2026-06-06T07:46:51.131960+00:00"
+      "flagged_at": "2026-06-06T10:05:29.415991+00:00",
+      "updated_at": "2026-06-06T10:05:29.416003+00:00"
     },
     {
       "bill_id": "ocd-bill/7a4449fe-5de1-4821-8068-f4835984b42d",
@@ -5573,8 +5573,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:47:01.712661+00:00",
-      "updated_at": "2026-06-06T07:47:01.712677+00:00"
+      "flagged_at": "2026-06-06T10:05:39.976431+00:00",
+      "updated_at": "2026-06-06T10:05:39.976443+00:00"
     },
     {
       "bill_id": "ocd-bill/fc958b42-2019-4c42-8500-b4325308d7ed",
@@ -5590,22 +5590,13 @@
       "committee": "",
       "sponsors": [],
       "rep_votes": {},
-      "explanation": "AB 1019 aims to enhance the identification of unidentified human remains, likely by allocating or modifying funds within the Enhancing Law Enforcement Activities Subaccount. This bill could provide Butte County law enforcement agencies, including the Sheriff's Office and local police departments, with increased resources for forensic analysis and investigations into unidentified persons cases.",
-      "local_angle": "This bill could bring new resources to Butte County to help solve local cold cases involving unidentified human remains, offering closure to families and improving public safety investigations.",
-      "topics": [
-        "Law Enforcement",
-        "Cold Cases",
-        "Forensic Science",
-        "Public Safety",
-        "Butte County"
-      ],
-      "rep_vote_notes": {
-        "James Gallagher": "No vote recorded.",
-        "Megan Dahle": "No vote recorded."
-      },
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:47:12.068278+00:00",
-      "updated_at": "2026-06-06T07:47:12.068294+00:00"
+      "flagged_at": "2026-06-06T10:05:50.726767+00:00",
+      "updated_at": "2026-06-06T10:05:50.726779+00:00"
     },
     {
       "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
@@ -5626,8 +5617,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:47:23.157074+00:00",
-      "updated_at": "2026-06-06T07:47:23.157090+00:00"
+      "flagged_at": "2026-06-06T10:06:01.777489+00:00",
+      "updated_at": "2026-06-06T10:06:01.777503+00:00"
     },
     {
       "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
@@ -5648,8 +5639,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:47:35.059822+00:00",
-      "updated_at": "2026-06-06T07:47:35.059838+00:00"
+      "flagged_at": "2026-06-06T10:06:12.624379+00:00",
+      "updated_at": "2026-06-06T10:06:12.624392+00:00"
     },
     {
       "bill_id": "ocd-bill/cff7abbd-56d6-4ac0-87af-0accebb14159",
@@ -5670,8 +5661,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:47:45.853421+00:00",
-      "updated_at": "2026-06-06T07:47:45.853436+00:00"
+      "flagged_at": "2026-06-06T10:06:23.439307+00:00",
+      "updated_at": "2026-06-06T10:06:23.439319+00:00"
     },
     {
       "bill_id": "ocd-bill/a4aab95d-dd0c-4cbd-a800-698c26c608c3",
@@ -5692,8 +5683,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:47:56.765393+00:00",
-      "updated_at": "2026-06-06T07:47:56.765409+00:00"
+      "flagged_at": "2026-06-06T10:06:34.232023+00:00",
+      "updated_at": "2026-06-06T10:06:34.232040+00:00"
     },
     {
       "bill_id": "ocd-bill/6839febe-208a-496a-98d0-63e5df01e201",
@@ -5714,8 +5705,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:48:07.670426+00:00",
-      "updated_at": "2026-06-06T07:48:07.670442+00:00"
+      "flagged_at": "2026-06-06T10:08:11.853295+00:00",
+      "updated_at": "2026-06-06T10:08:11.853305+00:00"
     },
     {
       "bill_id": "ocd-bill/b7d7006b-cbce-4f7d-9ced-da6a7e19dc0b",
@@ -5736,8 +5727,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:48:18.209080+00:00",
-      "updated_at": "2026-06-06T07:48:18.209095+00:00"
+      "flagged_at": "2026-06-06T10:08:22.910170+00:00",
+      "updated_at": "2026-06-06T10:08:22.910182+00:00"
     },
     {
       "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
@@ -5758,8 +5749,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:48:28.847969+00:00",
-      "updated_at": "2026-06-06T07:48:28.847989+00:00"
+      "flagged_at": "2026-06-06T10:10:00.573725+00:00",
+      "updated_at": "2026-06-06T10:10:00.573735+00:00"
     },
     {
       "bill_id": "ocd-bill/fb70803c-2a12-426d-80a0-a9ec5b97d6af",
@@ -5780,8 +5771,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:48:39.398953+00:00",
-      "updated_at": "2026-06-06T07:48:39.398969+00:00"
+      "flagged_at": "2026-06-06T10:11:38.397934+00:00",
+      "updated_at": "2026-06-06T10:11:38.397946+00:00"
     },
     {
       "bill_id": "ocd-bill/e1e28dc1-829e-49dd-b3b9-7d1395195963",
@@ -5802,8 +5793,8 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:48:50.409409+00:00",
-      "updated_at": "2026-06-06T07:48:50.409424+00:00"
+      "flagged_at": "2026-06-06T10:13:16.170941+00:00",
+      "updated_at": "2026-06-06T10:13:16.170953+00:00"
     },
     {
       "bill_id": "ocd-bill/4f55c79b-8445-4d68-ba37-2da51a004b88",
@@ -5824,10 +5815,54 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-06T07:49:00.888801+00:00",
-      "updated_at": "2026-06-06T07:49:00.888817+00:00"
+      "flagged_at": "2026-06-06T10:14:54.010052+00:00",
+      "updated_at": "2026-06-06T10:14:54.010065+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/4f85f996-f2b4-4bba-9e79-dafe03784b49",
+      "bill_number": "SB 582",
+      "title": "Health and care facilities: licensing during emergencies or disasters.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/20252026/SB 582/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-06-06T10:16:31.981078+00:00",
+      "updated_at": "2026-06-06T10:16:31.981090+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/bce85920-4fef-4908-b425-0933a603c75f",
+      "bill_number": "AJR 11",
+      "title": "Building Resilient Infrastructure and Communities program: federal funding cuts.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/20252026/AJR 11/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-06-06T10:18:09.726827+00:00",
+      "updated_at": "2026-06-06T10:18:09.726839+00:00"
     }
   ],
-  "legislation_last_updated": "2026-06-06T07:49:00.888840+00:00",
-  "legislation_flagged_count": 14
+  "legislation_last_updated": "2026-06-06T10:18:09.726862+00:00",
+  "legislation_flagged_count": 16
 }
