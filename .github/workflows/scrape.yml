@@ -1,32 +1,25 @@
 name: Scrape & Deploy
-
 on:
   schedule:
     - cron: "0 * * * *"  # every hour
   workflow_dispatch:
-
 permissions:
   contents: write
-
 concurrency:
   group: scrape-deploy
   cancel-in-progress: true
-
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout scraper repo
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Run scraper + legislation agent
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -34,27 +27,24 @@ jobs:
           OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
           GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
         run: python run.py
-
       - name: Commit updated data to scraper repo
         run: |
           git config user.name  "chico-scraper[bot]"
           git config user.email "chico-scraper@users.noreply.github.com"
           git add -A
           git diff --staged --quiet || git commit -m "auto: scrape $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push
-
       - name: Checkout eliassmyers site repo
         uses: actions/checkout@v4
         with:
           repository: eliassantiagomyers-glitch/eliassmyers
           token: ${{ secrets.ELIASSMYERS_DEPLOY_TOKEN }}
           path: eliassmyers-site
-
       - name: Copy dashboard into site repo
         run: |
           mkdir -p eliassmyers-site/chico-scraper
           cp index.html eliassmyers-site/chico-scraper/index.html
-
       - name: Commit and push to eliassmyers
         run: |
           cd eliassmyers-site
