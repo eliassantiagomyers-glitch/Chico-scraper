@@ -1,7 +1,7 @@
 name: Scrape & Deploy
 on:
   schedule:
-    - cron: "0 * * * *"  # every hour
+    - cron: "0 11,20 * * *" # twice daily — legislation (11am + 8pm UTC)
   workflow_dispatch:
 permissions:
   contents: write
