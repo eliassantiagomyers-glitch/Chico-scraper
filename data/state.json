@@ -2,23 +2,23 @@
   "meetings": [
     {
       "title": "06/16/26 Council Meeting - Jun 16, 2026",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1196",
-      "date": "2026-06-10",
-      "clip_id": null,
-      "guid": "574c6216-7ed7-40be-99d7-a776ee10b749",
-      "description": "The agenda for 06/16/26 Council Meeting dated Tuesday, 16 June 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1196",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1311",
+      "date": "2026-06-16",
+      "clip_id": "1311",
+      "guid": "ba03724c-57ee-445d-bacc-3b0fbdfc1e86",
+      "description": "The agenda for 06/16/26 Council Meeting dated Tuesday, 16 June 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1311",
       "items": [
         {
           "num": "",
-          "title": "The agenda for 06/16/26 Council Meeting dated Tuesday, 16 June 2026  has been published. Access it here:"
+          "title": "The agenda for 06/16/26 Council Meeting dated Tuesday, 16 June 2026  has been archived. Access it here:"
         },
         {
           "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1196"
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1311"
         }
       ],
       "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1196"
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1311"
       ],
       "feed_type": "agenda",
       "has_minutes": false,
@@ -2562,31 +2562,6 @@
       "minutes_title": null
     },
     {
-      "title": "Planning Commission - Aug 03, 2023",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1132",
-      "date": "2023-08-03",
-      "clip_id": "1132",
-      "guid": "d639af56-7d03-45a4-9147-9a126bbee614",
-      "description": "The agenda for Planning Commission dated Thursday, 03 August 2023 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1132",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for Planning Commission dated Thursday, 03 August 2023  has been archived. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1132"
-        }
-      ],
-      "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1132"
-      ],
-      "feed_type": "agenda",
-      "has_minutes": false,
-      "minutes_link": null,
-      "minutes_title": null
-    },
-    {
       "title": "8/1/23 City Council - Aug 01, 2023",
       "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1131",
       "date": "2023-08-01",
@@ -3212,9 +3187,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-06-16T22:12:20.980935+00:00",
-  "last_items_hash": "0345b4660de280b0",
-  "changed": false,
+  "last_updated": "2026-06-17T14:26:25.427414+00:00",
+  "last_items_hash": "952fc5713c77b3e3",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
