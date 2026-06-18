@@ -196,9 +196,10 @@
         "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1302"
       ],
       "feed_type": "agenda",
-      "has_minutes": false,
-      "minutes_link": null,
-      "minutes_title": null
+      "has_minutes": true,
+      "minutes_link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1302",
+      "minutes_title": "4/21/26 Council Meeting - Apr 21, 2026",
+      "minutes_doc_url": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1302"
     },
     {
       "title": "4/7/26 Council Meeting - Apr 07, 2026",
@@ -3168,28 +3169,12 @@
       "has_minutes": true,
       "minutes_link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1004",
       "minutes_title": "9/7/21 City Council Meeting - Sep 07, 2021"
-    },
-    {
-      "title": "8/3/21 City Council Meeting - Aug 03, 2021",
-      "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=996",
-      "date": "2021-08-03",
-      "clip_id": "996",
-      "guid": "b60c62ab-0734-4015-9ec2-74fa1247ddc4",
-      "description": "The agenda for 8/3/21 City Council Meeting dated Tuesday, 03 August 2021 has been archived. Access it here: https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=996",
-      "items": [],
-      "doc_urls": [
-        "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=996"
-      ],
-      "feed_type": "minutes",
-      "has_minutes": true,
-      "minutes_link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=996",
-      "minutes_title": "8/3/21 City Council Meeting - Aug 03, 2021"
     }
   ],
   "bills": [],
-  "last_updated": "2026-06-17T22:01:33.909240+00:00",
-  "last_items_hash": "952fc5713c77b3e3",
-  "changed": false,
+  "last_updated": "2026-06-18T14:11:06.384769+00:00",
+  "last_items_hash": "b4fc1984ce676b53",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
