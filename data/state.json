@@ -3172,7 +3172,7 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-06-23T13:43:18.005857+00:00",
+  "last_updated": "2026-06-23T21:43:20.932434+00:00",
   "last_items_hash": "b4fc1984ce676b53",
   "changed": false,
   "prev_bill_ids": [
@@ -3324,7 +3324,30 @@
     "2021-09-21",
     "2021-09-07"
   ],
-  "state_legislation": [],
-  "legislation_last_updated": "2026-06-22T22:05:00.456923+00:00",
-  "legislation_flagged_count": 0
+  "state_legislation": [
+    {
+      "bill_id": "ocd-bill/4f55c79b-8445-4d68-ba37-2da51a004b88",
+      "bill_number": "SJR 6",
+      "title": "Federal funding for essential state infrastructure, technology, and economic development.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/SJR 6/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-06-23T21:46:19.476360+00:00",
+      "updated_at": "2026-06-23T21:46:19.476375+00:00"
+    }
+  ],
+  "legislation_last_updated": "2026-06-23T21:46:19.476394+00:00",
+  "legislation_flagged_count": 1
 }
