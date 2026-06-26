@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "Bidwell Park and Playground Commission - Jun 29, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1246",
+      "date": "2026-06-26",
+      "clip_id": null,
+      "guid": "1d6bd4a6-9077-413c-bda0-b08c71ec73bd",
+      "description": "The agenda for Bidwell Park and Playground Commission dated Monday, 29 June 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1246",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for Bidwell Park and Playground Commission dated Monday, 29 June 2026  has been published. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1246"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1246"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "06/16/26 Council Meeting - Jun 16, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1311",
       "date": "2026-06-16",
@@ -3172,9 +3197,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-06-26T13:11:51.009529+00:00",
-  "last_items_hash": "b4fc1984ce676b53",
-  "changed": false,
+  "last_updated": "2026-06-26T21:19:27.676045+00:00",
+  "last_items_hash": "e5cd5ec9ee5fdc89",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
@@ -3345,9 +3370,9 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-06-23T21:46:19.476360+00:00",
-      "updated_at": "2026-06-25T21:44:54.844616+00:00"
+      "updated_at": "2026-06-26T21:21:48.945459+00:00"
     }
   ],
-  "legislation_last_updated": "2026-06-25T21:44:54.844648+00:00",
+  "legislation_last_updated": "2026-06-26T21:21:48.945491+00:00",
   "legislation_flagged_count": 1
 }
