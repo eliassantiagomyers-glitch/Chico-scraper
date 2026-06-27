@@ -3197,7 +3197,7 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-06-27T12:09:10.903046+00:00",
+  "last_updated": "2026-06-27T21:04:39.177235+00:00",
   "last_items_hash": "e5cd5ec9ee5fdc89",
   "changed": false,
   "prev_bill_ids": [
@@ -3371,9 +3371,9 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-06-23T21:46:19.476360+00:00",
-      "updated_at": "2026-06-26T21:21:48.945459+00:00"
+      "updated_at": "2026-06-27T21:05:14.178123+00:00"
     }
   ],
-  "legislation_last_updated": "2026-06-26T21:21:48.945491+00:00",
+  "legislation_last_updated": "2026-06-27T21:05:14.178156+00:00",
   "legislation_flagged_count": 1
 }
