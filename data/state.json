@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "7/7/26 Council Meeting - Jul 07, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1276",
+      "date": "2026-07-01",
+      "clip_id": null,
+      "guid": "0ebf25c3-7ac9-4319-8315-2a32ca752ac3",
+      "description": "The agenda for 7/7/26 Council Meeting dated Tuesday, 07 July 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1276",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for 7/7/26 Council Meeting dated Tuesday, 07 July 2026  has been published. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1276"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1276"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "Bidwell Park and Playground Commission - Jun 29, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1316",
       "date": "2026-06-29",
@@ -3172,9 +3197,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-07-01T13:34:13.811809+00:00",
-  "last_items_hash": "379bd551b3ca248a",
-  "changed": false,
+  "last_updated": "2026-07-01T21:38:58.256264+00:00",
+  "last_items_hash": "01aef0f83611d0c1",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
@@ -3345,9 +3370,9 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-06-29T21:29:58.684305+00:00",
-      "updated_at": "2026-06-30T21:29:38.223866+00:00"
+      "updated_at": "2026-07-01T21:40:36.408671+00:00"
     }
   ],
-  "legislation_last_updated": "2026-06-30T21:29:38.223896+00:00",
+  "legislation_last_updated": "2026-07-01T21:40:36.408699+00:00",
   "legislation_flagged_count": 1
 }
