@@ -3,7 +3,7 @@
     {
       "title": "7/7/26 Council Meeting - Jul 07, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1276",
-      "date": "2026-07-06",
+      "date": "2026-07-07",
       "clip_id": null,
       "guid": "0ebf25c3-7ac9-4319-8315-2a32ca752ac3",
       "description": "The agenda for 7/7/26 Council Meeting dated Tuesday, 07 July 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1276",
@@ -3197,9 +3197,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-07-07T13:21:20.963291+00:00",
-  "last_items_hash": "f57db637c6badc1b",
-  "changed": false,
+  "last_updated": "2026-07-07T21:25:06.688770+00:00",
+  "last_items_hash": "b5aa4ea0f001a42f",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
@@ -3371,9 +3371,9 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-06-29T21:29:58.684305+00:00",
-      "updated_at": "2026-07-06T21:39:26.518043+00:00"
+      "updated_at": "2026-07-07T21:26:36.357899+00:00"
     }
   ],
-  "legislation_last_updated": "2026-07-06T21:39:26.518069+00:00",
+  "legislation_last_updated": "2026-07-07T21:26:36.357935+00:00",
   "legislation_flagged_count": 1
 }
