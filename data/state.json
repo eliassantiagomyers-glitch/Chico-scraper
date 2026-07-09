@@ -3187,7 +3187,7 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-07-09T13:49:56.244169+00:00",
+  "last_updated": "2026-07-09T21:24:00.096509+00:00",
   "last_items_hash": "b5aa4ea0f001a42f",
   "changed": false,
   "prev_bill_ids": [
@@ -3342,11 +3342,11 @@
   ],
   "state_legislation": [
     {
-      "bill_id": "ocd-bill/4f55c79b-8445-4d68-ba37-2da51a004b88",
-      "bill_number": "SJR 6",
-      "title": "Federal funding for essential state infrastructure, technology, and economic development.",
+      "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
+      "bill_number": "SB 130",
+      "title": "Housing.",
       "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SJR 6/",
+      "url": "https://openstates.org/ca/bills/2025-2026/SB 130/",
       "score": 7,
       "status": "introduced",
       "status_label": "Introduced",
@@ -3360,10 +3360,32 @@
       "topics": [],
       "rep_vote_notes": {},
       "timeline": [],
-      "flagged_at": "2026-06-29T21:29:58.684305+00:00",
-      "updated_at": "2026-07-08T21:09:29.400368+00:00"
+      "flagged_at": "2026-07-09T21:30:08.718393+00:00",
+      "updated_at": "2026-07-09T21:30:08.718407+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
+      "bill_number": "AB 130",
+      "title": "Housing.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/AB 130/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-07-09T21:32:07.895913+00:00",
+      "updated_at": "2026-07-09T21:32:07.895927+00:00"
     }
   ],
-  "legislation_last_updated": "2026-07-08T21:09:29.400405+00:00",
-  "legislation_flagged_count": 1
+  "legislation_last_updated": "2026-07-09T21:32:07.895950+00:00",
+  "legislation_flagged_count": 2
 }
