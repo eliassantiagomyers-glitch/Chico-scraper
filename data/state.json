@@ -3217,7 +3217,7 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-07-20T13:06:26.972035+00:00",
+  "last_updated": "2026-07-20T21:12:13.316144+00:00",
   "last_items_hash": "617f589b82a247e7",
   "changed": false,
   "prev_bill_ids": [
@@ -3393,7 +3393,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-10T21:09:14.536031+00:00",
-      "updated_at": "2026-07-19T20:51:02.860365+00:00"
+      "updated_at": "2026-07-20T21:13:35.458592+00:00"
     },
     {
       "bill_id": "ocd-bill/9c4a4649-fe4f-420d-8347-7d5bd4a3e649",
@@ -3415,7 +3415,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-10T21:10:54.041714+00:00",
-      "updated_at": "2026-07-19T20:51:04.663212+00:00"
+      "updated_at": "2026-07-20T21:13:37.171544+00:00"
     },
     {
       "bill_id": "ocd-bill/a4aab95d-dd0c-4cbd-a800-698c26c608c3",
@@ -3437,7 +3437,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-17T20:59:10.857698+00:00",
-      "updated_at": "2026-07-19T20:51:06.465889+00:00"
+      "updated_at": "2026-07-20T21:13:38.898514+00:00"
     },
     {
       "bill_id": "ocd-bill/cff7abbd-56d6-4ac0-87af-0accebb14159",
@@ -3459,7 +3459,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-17T21:00:50.456020+00:00",
-      "updated_at": "2026-07-19T20:51:08.279413+00:00"
+      "updated_at": "2026-07-20T21:13:40.672830+00:00"
     },
     {
       "bill_id": "ocd-bill/ea820f2b-3e5d-4465-a47d-a4972b279a10",
@@ -3481,7 +3481,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-17T21:02:30.076183+00:00",
-      "updated_at": "2026-07-19T20:51:10.143103+00:00"
+      "updated_at": "2026-07-20T21:13:42.402915+00:00"
     },
     {
       "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
@@ -3503,7 +3503,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-14T21:08:03.248402+00:00",
-      "updated_at": "2026-07-19T20:51:11.942171+00:00"
+      "updated_at": "2026-07-20T21:13:44.133759+00:00"
     },
     {
       "bill_id": "ocd-bill/8f502de8-d0d0-4128-97db-20fa3fcd8020",
@@ -3525,139 +3525,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-17T21:04:29.749208+00:00",
-      "updated_at": "2026-07-19T20:51:13.728738+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
-      "bill_number": "SB 130",
-      "title": "Housing.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 130/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-14T21:14:40.456907+00:00",
-      "updated_at": "2026-07-19T20:51:15.536965+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
-      "bill_number": "AB 130",
-      "title": "Housing.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/AB 130/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-14T21:19:38.193071+00:00",
-      "updated_at": "2026-07-19T20:51:17.346602+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/e0e1a2f9-69cf-472e-96ec-130d84843a55",
-      "bill_number": "AB 1529",
-      "title": "Housing omnibus.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/AB 1529/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-17T21:06:09.227070+00:00",
-      "updated_at": "2026-07-19T20:51:19.141414+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/1548d225-d042-4c01-b41b-2f3f00219f2a",
-      "bill_number": "SB 123",
-      "title": "Higher education budget trailer bill.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 123/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-17T21:07:48.901253+00:00",
-      "updated_at": "2026-07-19T20:52:06.769325+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/4f85f996-f2b4-4bba-9e79-dafe03784b49",
-      "bill_number": "SB 582",
-      "title": "Health and care facilities: licensing during emergencies or disasters.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 582/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-17T21:09:28.507682+00:00",
-      "updated_at": "2026-07-19T20:52:08.602637+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/bce85920-4fef-4908-b425-0933a603c75f",
-      "bill_number": "AJR 11",
-      "title": "Building Resilient Infrastructure and Communities program: federal funding cuts.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/AJR 11/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-17T21:11:08.192267+00:00",
-      "updated_at": "2026-07-19T20:52:10.588158+00:00"
+      "updated_at": "2026-07-20T21:14:01.131664+00:00"
     },
     {
       "bill_id": "ocd-bill/6839febe-208a-496a-98d0-63e5df01e201",
@@ -3679,7 +3547,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-19T20:53:50.544907+00:00",
-      "updated_at": "2026-07-19T20:53:50.544922+00:00"
+      "updated_at": "2026-07-20T21:14:02.845693+00:00"
     },
     {
       "bill_id": "ocd-bill/fb70803c-2a12-426d-80a0-a9ec5b97d6af",
@@ -3701,7 +3569,29 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-19T20:55:30.273962+00:00",
-      "updated_at": "2026-07-19T20:55:30.273977+00:00"
+      "updated_at": "2026-07-20T21:14:04.577004+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
+      "bill_number": "SB 130",
+      "title": "Housing.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/SB 130/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-07-14T21:14:40.456907+00:00",
+      "updated_at": "2026-07-20T21:14:06.352608+00:00"
     },
     {
       "bill_id": "ocd-bill/4f55c79b-8445-4d68-ba37-2da51a004b88",
@@ -3723,7 +3613,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-19T20:57:09.717603+00:00",
-      "updated_at": "2026-07-19T20:57:09.717617+00:00"
+      "updated_at": "2026-07-20T21:14:08.085632+00:00"
     },
     {
       "bill_id": "ocd-bill/e1e28dc1-829e-49dd-b3b9-7d1395195963",
@@ -3745,7 +3635,29 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-19T20:58:49.770656+00:00",
-      "updated_at": "2026-07-19T20:58:49.770671+00:00"
+      "updated_at": "2026-07-20T21:14:09.820322+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
+      "bill_number": "AB 130",
+      "title": "Housing.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/AB 130/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-07-14T21:19:38.193071+00:00",
+      "updated_at": "2026-07-20T21:14:11.596886+00:00"
     },
     {
       "bill_id": "ocd-bill/b7d7006b-cbce-4f7d-9ced-da6a7e19dc0b",
@@ -3767,9 +3679,97 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-19T21:00:29.623613+00:00",
-      "updated_at": "2026-07-19T21:00:29.623628+00:00"
+      "updated_at": "2026-07-20T21:14:13.313302+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/e0e1a2f9-69cf-472e-96ec-130d84843a55",
+      "bill_number": "AB 1529",
+      "title": "Housing omnibus.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/AB 1529/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-07-17T21:06:09.227070+00:00",
+      "updated_at": "2026-07-20T21:14:15.050705+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/1548d225-d042-4c01-b41b-2f3f00219f2a",
+      "bill_number": "SB 123",
+      "title": "Higher education budget trailer bill.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/SB 123/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-07-17T21:07:48.901253+00:00",
+      "updated_at": "2026-07-20T21:14:16.781497+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/4f85f996-f2b4-4bba-9e79-dafe03784b49",
+      "bill_number": "SB 582",
+      "title": "Health and care facilities: licensing during emergencies or disasters.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/SB 582/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-07-17T21:09:28.507682+00:00",
+      "updated_at": "2026-07-20T21:15:04.185834+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/bce85920-4fef-4908-b425-0933a603c75f",
+      "bill_number": "AJR 11",
+      "title": "Building Resilient Infrastructure and Communities program: federal funding cuts.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/AJR 11/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-07-17T21:11:08.192267+00:00",
+      "updated_at": "2026-07-20T21:15:06.097421+00:00"
     }
   ],
-  "legislation_last_updated": "2026-07-19T21:00:29.623662+00:00",
+  "legislation_last_updated": "2026-07-20T21:15:06.097492+00:00",
   "legislation_flagged_count": 18
 }
