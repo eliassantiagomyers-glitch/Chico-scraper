@@ -3172,7 +3172,7 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-07-22T12:25:08.239620+00:00",
+  "last_updated": "2026-07-22T21:13:02.149318+00:00",
   "last_items_hash": "383308f7c5d53381",
   "changed": false,
   "prev_bill_ids": [
@@ -3345,7 +3345,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-10T21:09:14.536031+00:00",
-      "updated_at": "2026-07-21T21:11:16.678967+00:00"
+      "updated_at": "2026-07-22T21:15:11.024422+00:00"
     },
     {
       "bill_id": "ocd-bill/9c4a4649-fe4f-420d-8347-7d5bd4a3e649",
@@ -3367,117 +3367,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-10T21:10:54.041714+00:00",
-      "updated_at": "2026-07-21T21:11:18.518567+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/a4aab95d-dd0c-4cbd-a800-698c26c608c3",
-      "bill_number": "AB 1520",
-      "title": "Public resources: conservation.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/AB 1520/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-17T20:59:10.857698+00:00",
-      "updated_at": "2026-07-21T21:11:20.331120+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/cff7abbd-56d6-4ac0-87af-0accebb14159",
-      "bill_number": "SB 831",
-      "title": "Geologic hazards: California Geological Survey.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 831/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-17T21:00:50.456020+00:00",
-      "updated_at": "2026-07-21T21:11:22.130621+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/ea820f2b-3e5d-4465-a47d-a4972b279a10",
-      "bill_number": "SB 292",
-      "title": "Electricity: wildfire mitigation: deenergization events and reliability.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 292/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-17T21:02:30.076183+00:00",
-      "updated_at": "2026-07-21T21:11:23.918490+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
-      "bill_number": "AB 786",
-      "title": "California Pollution Control Financing Authority: name change.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/AB 786/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-14T21:08:03.248402+00:00",
-      "updated_at": "2026-07-21T21:11:25.725433+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/8f502de8-d0d0-4128-97db-20fa3fcd8020",
-      "bill_number": "SB 506",
-      "title": "Transportation: omnibus bill.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 506/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-17T21:04:29.749208+00:00",
-      "updated_at": "2026-07-21T21:11:27.728695+00:00"
+      "updated_at": "2026-07-22T21:15:14.071722+00:00"
     },
     {
       "bill_id": "ocd-bill/6839febe-208a-496a-98d0-63e5df01e201",
@@ -3499,7 +3389,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-19T20:53:50.544907+00:00",
-      "updated_at": "2026-07-21T21:11:29.536885+00:00"
+      "updated_at": "2026-07-22T21:15:15.993146+00:00"
     },
     {
       "bill_id": "ocd-bill/fb70803c-2a12-426d-80a0-a9ec5b97d6af",
@@ -3521,7 +3411,29 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-19T20:55:30.273962+00:00",
-      "updated_at": "2026-07-21T21:11:31.348652+00:00"
+      "updated_at": "2026-07-22T21:15:17.819743+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
+      "bill_number": "AB 786",
+      "title": "California Pollution Control Financing Authority: name change.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/AB 786/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-07-14T21:08:03.248402+00:00",
+      "updated_at": "2026-07-22T21:15:19.640377+00:00"
     },
     {
       "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
@@ -3543,7 +3455,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-14T21:14:40.456907+00:00",
-      "updated_at": "2026-07-21T21:12:18.896099+00:00"
+      "updated_at": "2026-07-22T21:15:21.465519+00:00"
     },
     {
       "bill_id": "ocd-bill/4f55c79b-8445-4d68-ba37-2da51a004b88",
@@ -3565,7 +3477,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-19T20:57:09.717603+00:00",
-      "updated_at": "2026-07-21T21:12:20.710542+00:00"
+      "updated_at": "2026-07-22T21:15:23.707902+00:00"
     },
     {
       "bill_id": "ocd-bill/e1e28dc1-829e-49dd-b3b9-7d1395195963",
@@ -3587,7 +3499,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-19T20:58:49.770656+00:00",
-      "updated_at": "2026-07-21T21:12:22.541220+00:00"
+      "updated_at": "2026-07-22T21:15:25.509819+00:00"
     },
     {
       "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
@@ -3609,7 +3521,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-14T21:19:38.193071+00:00",
-      "updated_at": "2026-07-21T21:12:24.361191+00:00"
+      "updated_at": "2026-07-22T21:16:14.456547+00:00"
     },
     {
       "bill_id": "ocd-bill/b7d7006b-cbce-4f7d-9ced-da6a7e19dc0b",
@@ -3631,7 +3543,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-19T21:00:29.623613+00:00",
-      "updated_at": "2026-07-21T21:12:26.173556+00:00"
+      "updated_at": "2026-07-22T21:16:18.217938+00:00"
     },
     {
       "bill_id": "ocd-bill/e0e1a2f9-69cf-472e-96ec-130d84843a55",
@@ -3653,7 +3565,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-17T21:06:09.227070+00:00",
-      "updated_at": "2026-07-21T21:12:27.987276+00:00"
+      "updated_at": "2026-07-22T21:16:28.309224+00:00"
     },
     {
       "bill_id": "ocd-bill/1548d225-d042-4c01-b41b-2f3f00219f2a",
@@ -3675,7 +3587,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-17T21:07:48.901253+00:00",
-      "updated_at": "2026-07-21T21:12:29.802517+00:00"
+      "updated_at": "2026-07-22T21:16:31.884723+00:00"
     },
     {
       "bill_id": "ocd-bill/4f85f996-f2b4-4bba-9e79-dafe03784b49",
@@ -3697,7 +3609,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-17T21:09:28.507682+00:00",
-      "updated_at": "2026-07-21T21:12:31.590445+00:00"
+      "updated_at": "2026-07-22T21:16:53.875161+00:00"
     },
     {
       "bill_id": "ocd-bill/bce85920-4fef-4908-b425-0933a603c75f",
@@ -3719,9 +3631,9 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-17T21:11:08.192267+00:00",
-      "updated_at": "2026-07-21T21:12:33.395434+00:00"
+      "updated_at": "2026-07-22T21:16:55.695546+00:00"
     }
   ],
-  "legislation_last_updated": "2026-07-21T21:12:33.395480+00:00",
-  "legislation_flagged_count": 18
+  "legislation_last_updated": "2026-07-22T21:16:55.695602+00:00",
+  "legislation_flagged_count": 14
 }
