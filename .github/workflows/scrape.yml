@@ -35,21 +35,4 @@ jobs:
           git diff --staged --quiet || git commit -m "auto: scrape $(date -u +'%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin main
           git push
-      - name: Checkout eliassmyers site repo
-        uses: actions/checkout@v4
-        with:
-          repository: eliassantiagomyers-glitch/eliassmyers
-          token: ${{ secrets.ELIASSMYERS_DEPLOY_TOKEN }}
-          path: eliassmyers-site
-      - name: Copy dashboard into site repo
-        run: |
-          mkdir -p eliassmyers-site/chico-scraper
-          cp index.html eliassmyers-site/chico-scraper/index.html
-      - name: Commit and push to eliassmyers
-        run: |
-          cd eliassmyers-site
-          git config user.name  "chico-scraper[bot]"
-          git config user.email "chico-scraper@users.noreply.github.com"
-          git add chico-scraper/index.html
-          git diff --staged --quiet || git commit -m "auto: update chico-scraper dashboard $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+     
