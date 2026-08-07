@@ -3187,9 +3187,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-08-06T12:56:41.076383+00:00",
+  "last_updated": "2026-08-07T00:52:25.838832+00:00",
   "last_items_hash": "570306e2ef44cf9c",
-  "changed": true,
+  "changed": false,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
@@ -3200,6 +3200,7 @@
     "cce0c46776"
   ],
   "prev_meeting_dates": [
+    "2026-08-05",
     "2026-07-14",
     "2026-07-07",
     "2026-06-29",
@@ -3360,7 +3361,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-10T21:09:14.536031+00:00",
-      "updated_at": "2026-08-05T21:09:20.877540+00:00"
+      "updated_at": "2026-08-07T00:54:29.421109+00:00"
     },
     {
       "bill_id": "ocd-bill/9c4a4649-fe4f-420d-8347-7d5bd4a3e649",
@@ -3382,51 +3383,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-07-10T21:10:54.041714+00:00",
-      "updated_at": "2026-08-05T21:09:22.562823+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
-      "bill_number": "SB 130",
-      "title": "Housing.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 130/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-14T21:14:40.456907+00:00",
-      "updated_at": "2026-08-05T21:09:24.138281+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
-      "bill_number": "AB 130",
-      "title": "Housing.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/AB 130/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-07-14T21:19:38.193071+00:00",
-      "updated_at": "2026-08-05T21:09:25.903375+00:00"
+      "updated_at": "2026-08-07T00:54:31.159003+00:00"
     },
     {
       "bill_id": "ocd-bill/a4aab95d-dd0c-4cbd-a800-698c26c608c3",
@@ -3448,7 +3405,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:11:05.111292+00:00",
-      "updated_at": "2026-08-05T21:11:05.111309+00:00"
+      "updated_at": "2026-08-07T00:54:52.832641+00:00"
     },
     {
       "bill_id": "ocd-bill/cff7abbd-56d6-4ac0-87af-0accebb14159",
@@ -3470,7 +3427,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:12:44.490079+00:00",
-      "updated_at": "2026-08-05T21:12:44.490096+00:00"
+      "updated_at": "2026-08-07T00:54:54.589558+00:00"
     },
     {
       "bill_id": "ocd-bill/ea820f2b-3e5d-4465-a47d-a4972b279a10",
@@ -3492,7 +3449,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:14:23.831111+00:00",
-      "updated_at": "2026-08-05T21:14:23.831128+00:00"
+      "updated_at": "2026-08-07T00:54:56.276553+00:00"
     },
     {
       "bill_id": "ocd-bill/6839febe-208a-496a-98d0-63e5df01e201",
@@ -3514,7 +3471,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:16:03.328258+00:00",
-      "updated_at": "2026-08-05T21:16:03.328276+00:00"
+      "updated_at": "2026-08-07T00:54:57.963868+00:00"
     },
     {
       "bill_id": "ocd-bill/fb70803c-2a12-426d-80a0-a9ec5b97d6af",
@@ -3536,7 +3493,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:17:42.697863+00:00",
-      "updated_at": "2026-08-05T21:17:42.697881+00:00"
+      "updated_at": "2026-08-07T00:54:59.703448+00:00"
     },
     {
       "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
@@ -3558,7 +3515,29 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:19:22.028551+00:00",
-      "updated_at": "2026-08-05T21:19:22.028569+00:00"
+      "updated_at": "2026-08-07T00:55:01.368674+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
+      "bill_number": "SB 130",
+      "title": "Housing.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/SB 130/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-07-14T21:14:40.456907+00:00",
+      "updated_at": "2026-08-07T00:55:23.051877+00:00"
     },
     {
       "bill_id": "ocd-bill/4f55c79b-8445-4d68-ba37-2da51a004b88",
@@ -3580,7 +3559,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:21:01.412511+00:00",
-      "updated_at": "2026-08-05T21:21:01.412533+00:00"
+      "updated_at": "2026-08-07T00:55:44.697669+00:00"
     },
     {
       "bill_id": "ocd-bill/e1e28dc1-829e-49dd-b3b9-7d1395195963",
@@ -3602,7 +3581,29 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:22:40.889676+00:00",
-      "updated_at": "2026-08-05T21:22:40.889692+00:00"
+      "updated_at": "2026-08-07T00:56:06.341007+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
+      "bill_number": "AB 130",
+      "title": "Housing.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/AB 130/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-07-14T21:19:38.193071+00:00",
+      "updated_at": "2026-08-07T00:56:28.091935+00:00"
     },
     {
       "bill_id": "ocd-bill/b7d7006b-cbce-4f7d-9ced-da6a7e19dc0b",
@@ -3624,7 +3625,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:24:20.502169+00:00",
-      "updated_at": "2026-08-05T21:24:20.502186+00:00"
+      "updated_at": "2026-08-07T00:56:49.734154+00:00"
     },
     {
       "bill_id": "ocd-bill/e0e1a2f9-69cf-472e-96ec-130d84843a55",
@@ -3646,7 +3647,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:25:59.947186+00:00",
-      "updated_at": "2026-08-05T21:25:59.947203+00:00"
+      "updated_at": "2026-08-07T00:57:08.172351+00:00"
     },
     {
       "bill_id": "ocd-bill/1548d225-d042-4c01-b41b-2f3f00219f2a",
@@ -3668,7 +3669,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:27:39.409273+00:00",
-      "updated_at": "2026-08-05T21:27:39.409291+00:00"
+      "updated_at": "2026-08-07T00:57:09.867445+00:00"
     },
     {
       "bill_id": "ocd-bill/4f85f996-f2b4-4bba-9e79-dafe03784b49",
@@ -3690,7 +3691,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:29:18.888686+00:00",
-      "updated_at": "2026-08-05T21:29:18.888703+00:00"
+      "updated_at": "2026-08-07T00:57:12.811467+00:00"
     },
     {
       "bill_id": "ocd-bill/bce85920-4fef-4908-b425-0933a603c75f",
@@ -3712,9 +3713,9 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-05T21:30:58.239923+00:00",
-      "updated_at": "2026-08-05T21:30:58.239941+00:00"
+      "updated_at": "2026-08-07T00:57:33.169830+00:00"
     }
   ],
-  "legislation_last_updated": "2026-08-05T21:30:58.239981+00:00",
+  "legislation_last_updated": "2026-08-07T00:57:33.169885+00:00",
   "legislation_flagged_count": 17
 }
