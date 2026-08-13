@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "Planning Commission - Aug 20, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1087",
+      "date": "2026-08-13",
+      "clip_id": null,
+      "guid": "a2169f02-460c-4178-9907-19d214212864",
+      "description": "The agenda for Planning Commission dated Thursday, 20 August 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1087",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for Planning Commission dated Thursday, 20 August 2026  has been published. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1087"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1087"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "08-03-26 Special City Council Meeting - Via Zoom Only - Aug 05, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1325",
       "date": "2026-08-05",
@@ -3187,9 +3212,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-08-13T11:46:25.302370+00:00",
-  "last_items_hash": "570306e2ef44cf9c",
-  "changed": false,
+  "last_updated": "2026-08-13T20:42:05.284780+00:00",
+  "last_items_hash": "beace5550af3085e",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
