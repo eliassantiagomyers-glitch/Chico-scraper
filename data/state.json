@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "8/18/26 Council Meeting - Aug 18, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1330",
+      "date": "2026-08-18",
+      "clip_id": "1330",
+      "guid": "b3970d19-8bcc-4f2c-9ade-3bb36caecd35",
+      "description": "The agenda for 8/18/26 Council Meeting dated Tuesday, 18 August 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1330",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for 8/18/26 Council Meeting dated Tuesday, 18 August 2026  has been archived. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1330"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1330"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "Planning Commission - Aug 20, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1087",
       "date": "2026-08-13",
@@ -19,31 +44,6 @@
       ],
       "doc_urls": [
         "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1087"
-      ],
-      "feed_type": "agenda",
-      "has_minutes": false,
-      "minutes_link": null,
-      "minutes_title": null
-    },
-    {
-      "title": "8/18/26 Council Meeting - Aug 18, 2026",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1200",
-      "date": "2026-08-13",
-      "clip_id": null,
-      "guid": "b5896371-abe9-4660-92f4-29e805e2b828",
-      "description": "The agenda for 8/18/26 Council Meeting dated Tuesday, 18 August 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1200",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for 8/18/26 Council Meeting dated Tuesday, 18 August 2026  has been published. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1200"
-        }
-      ],
-      "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1200"
       ],
       "feed_type": "agenda",
       "has_minutes": false,
@@ -2587,29 +2587,19 @@
     },
     {
       "title": "9/19/23 City Council - Sep 19, 2023",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1135",
+      "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1135",
       "date": "2023-09-19",
       "clip_id": "1135",
       "guid": "afbf6a48-e6d1-4ea4-9075-1f765a206b42",
-      "description": "The agenda for 9/19/23 City Council dated Tuesday, 19 September 2023 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1135",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for 9/19/23 City Council dated Tuesday, 19 September 2023  has been archived. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1135"
-        }
-      ],
+      "description": "The agenda for 9/19/23 City Council dated Tuesday, 19 September 2023 has been archived. Access it here: https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1135",
+      "items": [],
       "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1135"
+        "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1135"
       ],
-      "feed_type": "agenda",
+      "feed_type": "minutes",
       "has_minutes": true,
       "minutes_link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1135",
-      "minutes_title": "9/19/23 City Council - Sep 19, 2023",
-      "minutes_doc_url": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1135"
+      "minutes_title": "9/19/23 City Council - Sep 19, 2023"
     },
     {
       "title": "9/5/23 City Council - Sep 05, 2023",
@@ -3237,9 +3227,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-08-18T20:23:28.381405+00:00",
-  "last_items_hash": "46fe2d5566505356",
-  "changed": false,
+  "last_updated": "2026-08-19T11:24:34.803822+00:00",
+  "last_items_hash": "9241505d114c22e4",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
@@ -3413,7 +3403,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:31:21.932713+00:00",
-      "updated_at": "2026-08-18T11:26:39.017874+00:00"
+      "updated_at": "2026-08-19T11:25:12.494167+00:00"
     },
     {
       "bill_id": "ocd-bill/9c4a4649-fe4f-420d-8347-7d5bd4a3e649",
@@ -3435,7 +3425,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:33:01.267125+00:00",
-      "updated_at": "2026-08-18T11:26:40.752122+00:00"
+      "updated_at": "2026-08-19T11:25:14.360244+00:00"
     },
     {
       "bill_id": "ocd-bill/a4aab95d-dd0c-4cbd-a800-698c26c608c3",
@@ -3457,7 +3447,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:46:07.864371+00:00",
-      "updated_at": "2026-08-18T11:26:42.541060+00:00"
+      "updated_at": "2026-08-19T11:25:16.267289+00:00"
     },
     {
       "bill_id": "ocd-bill/cff7abbd-56d6-4ac0-87af-0accebb14159",
@@ -3479,7 +3469,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:47:47.354422+00:00",
-      "updated_at": "2026-08-18T11:26:44.326141+00:00"
+      "updated_at": "2026-08-19T11:25:18.164591+00:00"
     },
     {
       "bill_id": "ocd-bill/ea820f2b-3e5d-4465-a47d-a4972b279a10",
@@ -3501,7 +3491,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:49:26.998507+00:00",
-      "updated_at": "2026-08-18T11:26:46.078491+00:00"
+      "updated_at": "2026-08-19T11:25:20.023063+00:00"
     },
     {
       "bill_id": "ocd-bill/6839febe-208a-496a-98d0-63e5df01e201",
@@ -3523,7 +3513,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:39:58.185937+00:00",
-      "updated_at": "2026-08-18T11:26:47.839000+00:00"
+      "updated_at": "2026-08-19T11:25:21.777000+00:00"
     },
     {
       "bill_id": "ocd-bill/fb70803c-2a12-426d-80a0-a9ec5b97d6af",
@@ -3545,7 +3535,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:41:57.530678+00:00",
-      "updated_at": "2026-08-18T11:27:05.045990+00:00"
+      "updated_at": "2026-08-19T11:26:09.040425+00:00"
     },
     {
       "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
@@ -3567,7 +3557,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:43:46.044563+00:00",
-      "updated_at": "2026-08-18T11:27:06.828909+00:00"
+      "updated_at": "2026-08-19T11:26:10.782139+00:00"
     },
     {
       "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
@@ -3589,7 +3579,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:45:28.869742+00:00",
-      "updated_at": "2026-08-18T11:27:08.700416+00:00"
+      "updated_at": "2026-08-19T11:26:12.536347+00:00"
     },
     {
       "bill_id": "ocd-bill/e1e28dc1-829e-49dd-b3b9-7d1395195963",
@@ -3611,7 +3601,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:47:28.292477+00:00",
-      "updated_at": "2026-08-18T11:27:11.238889+00:00"
+      "updated_at": "2026-08-19T11:26:14.291645+00:00"
     },
     {
       "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
@@ -3633,7 +3623,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:49:07.700664+00:00",
-      "updated_at": "2026-08-18T11:27:12.972824+00:00"
+      "updated_at": "2026-08-19T11:26:16.047339+00:00"
     },
     {
       "bill_id": "ocd-bill/b7d7006b-cbce-4f7d-9ced-da6a7e19dc0b",
@@ -3655,7 +3645,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:50:47.170529+00:00",
-      "updated_at": "2026-08-18T11:27:14.842909+00:00"
+      "updated_at": "2026-08-19T11:26:17.809218+00:00"
     },
     {
       "bill_id": "ocd-bill/e0e1a2f9-69cf-472e-96ec-130d84843a55",
@@ -3677,7 +3667,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:51:06.387190+00:00",
-      "updated_at": "2026-08-18T11:27:16.729037+00:00"
+      "updated_at": "2026-08-19T11:26:19.578293+00:00"
     },
     {
       "bill_id": "ocd-bill/1548d225-d042-4c01-b41b-2f3f00219f2a",
@@ -3699,7 +3689,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:52:45.951121+00:00",
-      "updated_at": "2026-08-18T11:27:18.503946+00:00"
+      "updated_at": "2026-08-19T11:26:21.315989+00:00"
     },
     {
       "bill_id": "ocd-bill/4f85f996-f2b4-4bba-9e79-dafe03784b49",
@@ -3721,7 +3711,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:54:45.338609+00:00",
-      "updated_at": "2026-08-18T11:27:21.703506+00:00"
+      "updated_at": "2026-08-19T11:26:23.094171+00:00"
     },
     {
       "bill_id": "ocd-bill/bce85920-4fef-4908-b425-0933a603c75f",
@@ -3743,9 +3733,9 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:56:24.821414+00:00",
-      "updated_at": "2026-08-18T11:27:23.436871+00:00"
+      "updated_at": "2026-08-19T11:26:24.860641+00:00"
     }
   ],
-  "legislation_last_updated": "2026-08-18T11:27:23.436907+00:00",
+  "legislation_last_updated": "2026-08-19T11:26:24.860688+00:00",
   "legislation_flagged_count": 16
 }
