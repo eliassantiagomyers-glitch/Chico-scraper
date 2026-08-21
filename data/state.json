@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "Planning Commission - Aug 20, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1331",
+      "date": "2026-08-20",
+      "clip_id": "1331",
+      "guid": "03990743-8cd0-43fb-b73b-0e267043a55d",
+      "description": "The agenda for Planning Commission dated Thursday, 20 August 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1331",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for Planning Commission dated Thursday, 20 August 2026  has been archived. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1331"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1331"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "8/18/26 Council Meeting - Aug 18, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1330",
       "date": "2026-08-18",
@@ -2536,29 +2561,19 @@
     },
     {
       "title": "10-3-23 City Council  Meeting - Continued to October 17, 2023 Due to Audio Problems - Oct 03, 2023",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1136",
+      "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1136",
       "date": "2023-10-03",
       "clip_id": "1136",
       "guid": "e4bc28f0-538b-472c-94db-3641d16a9140",
-      "description": "The agenda for 10-3-23 City Council Meeting - Continued to October 17, 2023 Due to Audio Problems dated Tuesday, 03 October 2023 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1136",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for 10-3-23 City Council  Meeting - Continued to October 17, 2023 Due to Audio Problems dated Tuesday, 03 October 2023  has been archived. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1136"
-        }
-      ],
+      "description": "The agenda for 10-3-23 City Council Meeting - Continued to October 17, 2023 Due to Audio Problems dated Tuesday, 03 October 2023 has been archived. Access it here: https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1136",
+      "items": [],
       "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1136"
+        "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1136"
       ],
-      "feed_type": "agenda",
+      "feed_type": "minutes",
       "has_minutes": true,
       "minutes_link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1136",
-      "minutes_title": "10-3-23 City Council  Meeting - Continued to October 17, 2023 Due to Audio Problems - Oct 03, 2023",
-      "minutes_doc_url": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1136"
+      "minutes_title": "10-3-23 City Council  Meeting - Continued to October 17, 2023 Due to Audio Problems - Oct 03, 2023"
     },
     {
       "title": "9/19/23 City Council - Sep 19, 2023",
@@ -3202,8 +3217,8 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-08-21T11:25:40.357511+00:00",
-  "last_items_hash": "88594381647302f0",
+  "last_updated": "2026-08-21T20:25:25.039853+00:00",
+  "last_items_hash": "462fbe1d50e3cd87",
   "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
@@ -3216,7 +3231,6 @@
   ],
   "prev_meeting_dates": [
     "2026-08-18",
-    "2026-08-13",
     "2026-08-05",
     "2026-07-14",
     "2026-07-07",
