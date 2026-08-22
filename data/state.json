@@ -51,16 +51,41 @@
       "minutes_title": null
     },
     {
-      "title": "08-03-26 Special City Council Meeting - Via Zoom Only - Aug 05, 2026",
+      "title": "07/29/26 City Council - Special Closed Session - Jul 29, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1326",
+      "date": "2026-08-11",
+      "clip_id": "1326",
+      "guid": "86968ba9-d490-430a-9303-121eda4036e7",
+      "description": "The agenda for 07/29/26 City Council - Special Closed Session dated Wednesday, 29 July 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1326",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for 07/29/26 City Council - Special Closed Session dated Wednesday, 29 July 2026  has been archived. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1326"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1326"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
+      "title": "08-03-26 Special City Council Meeting - Via Zoom Only - Aug 03, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1325",
       "date": "2026-08-05",
       "clip_id": "1325",
       "guid": "d6a06762-9113-11f1-bb61-005056a89546",
-      "description": "The agenda for 08-03-26 Special City Council Meeting - Via Zoom Only dated Wednesday, 05 August 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1325",
+      "description": "The agenda for 08-03-26 Special City Council Meeting - Via Zoom Only dated Monday, 03 August 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1325",
       "items": [
         {
           "num": "",
-          "title": "The agenda for 08-03-26 Special City Council Meeting - Via Zoom Only dated Wednesday, 05 August 2026  has been archived. Access it here:"
+          "title": "The agenda for 08-03-26 Special City Council Meeting - Via Zoom Only dated Monday, 03 August 2026  has been archived. Access it here:"
         },
         {
           "num": "",
@@ -2535,31 +2560,6 @@
       "minutes_doc_url": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1140"
     },
     {
-      "title": "Planning Commission - Oct 05, 2023",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1138",
-      "date": "2023-10-05",
-      "clip_id": "1138",
-      "guid": "c5de595a-55fd-406e-a7af-ab6ec19719ec",
-      "description": "The agenda for Planning Commission dated Thursday, 05 October 2023 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1138",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for Planning Commission dated Thursday, 05 October 2023  has been archived. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1138"
-        }
-      ],
-      "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1138"
-      ],
-      "feed_type": "agenda",
-      "has_minutes": false,
-      "minutes_link": null,
-      "minutes_title": null
-    },
-    {
       "title": "10-3-23 City Council  Meeting - Continued to October 17, 2023 Due to Audio Problems - Oct 03, 2023",
       "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1136",
       "date": "2023-10-03",
@@ -3217,8 +3217,8 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-08-21T20:25:25.039853+00:00",
-  "last_items_hash": "462fbe1d50e3cd87",
+  "last_updated": "2026-08-22T11:20:19.336667+00:00",
+  "last_items_hash": "0deca3a12c5e5682",
   "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
@@ -3230,6 +3230,7 @@
     "cce0c46776"
   ],
   "prev_meeting_dates": [
+    "2026-08-20",
     "2026-08-18",
     "2026-08-05",
     "2026-07-14",
@@ -3392,7 +3393,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:31:21.932713+00:00",
-      "updated_at": "2026-08-21T11:26:35.981784+00:00"
+      "updated_at": "2026-08-22T11:21:20.681507+00:00"
     },
     {
       "bill_id": "ocd-bill/9c4a4649-fe4f-420d-8347-7d5bd4a3e649",
@@ -3414,7 +3415,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:33:01.267125+00:00",
-      "updated_at": "2026-08-21T11:26:37.726970+00:00"
+      "updated_at": "2026-08-22T11:21:22.222619+00:00"
     },
     {
       "bill_id": "ocd-bill/a4aab95d-dd0c-4cbd-a800-698c26c608c3",
@@ -3436,7 +3437,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:46:07.864371+00:00",
-      "updated_at": "2026-08-21T11:26:39.479994+00:00"
+      "updated_at": "2026-08-22T11:21:23.767581+00:00"
     },
     {
       "bill_id": "ocd-bill/cff7abbd-56d6-4ac0-87af-0accebb14159",
@@ -3458,7 +3459,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:47:47.354422+00:00",
-      "updated_at": "2026-08-21T11:26:43.686174+00:00"
+      "updated_at": "2026-08-22T11:21:25.309609+00:00"
     },
     {
       "bill_id": "ocd-bill/ea820f2b-3e5d-4465-a47d-a4972b279a10",
@@ -3480,7 +3481,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:49:26.998507+00:00",
-      "updated_at": "2026-08-21T11:26:45.455988+00:00"
+      "updated_at": "2026-08-22T11:21:30.687019+00:00"
     },
     {
       "bill_id": "ocd-bill/6839febe-208a-496a-98d0-63e5df01e201",
@@ -3502,7 +3503,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:39:58.185937+00:00",
-      "updated_at": "2026-08-21T11:27:02.883672+00:00"
+      "updated_at": "2026-08-22T11:21:32.238284+00:00"
     },
     {
       "bill_id": "ocd-bill/fb70803c-2a12-426d-80a0-a9ec5b97d6af",
@@ -3524,7 +3525,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:41:57.530678+00:00",
-      "updated_at": "2026-08-21T11:27:04.754048+00:00"
+      "updated_at": "2026-08-22T11:22:19.016643+00:00"
     },
     {
       "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
@@ -3546,7 +3547,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:43:46.044563+00:00",
-      "updated_at": "2026-08-21T11:27:06.506909+00:00"
+      "updated_at": "2026-08-22T11:22:20.570153+00:00"
     },
     {
       "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
@@ -3568,7 +3569,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:45:28.869742+00:00",
-      "updated_at": "2026-08-21T11:27:08.264016+00:00"
+      "updated_at": "2026-08-22T11:22:22.171967+00:00"
     },
     {
       "bill_id": "ocd-bill/e1e28dc1-829e-49dd-b3b9-7d1395195963",
@@ -3590,7 +3591,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:47:28.292477+00:00",
-      "updated_at": "2026-08-21T11:27:10.018940+00:00"
+      "updated_at": "2026-08-22T11:22:23.720488+00:00"
     },
     {
       "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
@@ -3612,7 +3613,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:49:07.700664+00:00",
-      "updated_at": "2026-08-21T11:27:12.712875+00:00"
+      "updated_at": "2026-08-22T11:22:25.384293+00:00"
     },
     {
       "bill_id": "ocd-bill/b7d7006b-cbce-4f7d-9ced-da6a7e19dc0b",
@@ -3634,7 +3635,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:50:47.170529+00:00",
-      "updated_at": "2026-08-21T11:27:14.472321+00:00"
+      "updated_at": "2026-08-22T11:22:26.932533+00:00"
     },
     {
       "bill_id": "ocd-bill/e0e1a2f9-69cf-472e-96ec-130d84843a55",
@@ -3656,7 +3657,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:51:06.387190+00:00",
-      "updated_at": "2026-08-21T11:27:16.203073+00:00"
+      "updated_at": "2026-08-22T11:22:28.480337+00:00"
     },
     {
       "bill_id": "ocd-bill/1548d225-d042-4c01-b41b-2f3f00219f2a",
@@ -3678,7 +3679,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:52:45.951121+00:00",
-      "updated_at": "2026-08-21T11:27:30.830772+00:00"
+      "updated_at": "2026-08-22T11:22:30.052424+00:00"
     },
     {
       "bill_id": "ocd-bill/4f85f996-f2b4-4bba-9e79-dafe03784b49",
@@ -3700,7 +3701,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:54:45.338609+00:00",
-      "updated_at": "2026-08-21T11:27:32.581301+00:00"
+      "updated_at": "2026-08-22T11:22:31.608594+00:00"
     },
     {
       "bill_id": "ocd-bill/bce85920-4fef-4908-b425-0933a603c75f",
@@ -3722,9 +3723,9 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:56:24.821414+00:00",
-      "updated_at": "2026-08-21T11:28:19.983976+00:00"
+      "updated_at": "2026-08-22T11:22:33.150559+00:00"
     }
   ],
-  "legislation_last_updated": "2026-08-21T11:28:19.984020+00:00",
+  "legislation_last_updated": "2026-08-22T11:22:33.150602+00:00",
   "legislation_flagged_count": 16
 }
