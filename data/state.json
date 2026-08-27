@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "9/1/26 Council Meeting - Sep 01, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1201",
+      "date": "2026-08-26",
+      "clip_id": null,
+      "guid": "6ba07bd9-0307-49ba-832d-889a22cbb6e9",
+      "description": "The agenda for 9/1/26 Council Meeting dated Tuesday, 01 September 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1201",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for 9/1/26 Council Meeting dated Tuesday, 01 September 2026  has been published. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1201"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1201"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "Planning Commission - Aug 20, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1331",
       "date": "2026-08-20",
@@ -3202,9 +3227,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-08-26T22:47:11.476460+00:00",
-  "last_items_hash": "90007d6b3b229b31",
-  "changed": false,
+  "last_updated": "2026-08-27T20:54:47.120102+00:00",
+  "last_items_hash": "5c31963682e8f7a0",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
@@ -3377,7 +3402,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:31:21.932713+00:00",
-      "updated_at": "2026-08-26T11:31:27.335871+00:00"
+      "updated_at": "2026-08-27T20:55:20.146910+00:00"
     },
     {
       "bill_id": "ocd-bill/9c4a4649-fe4f-420d-8347-7d5bd4a3e649",
@@ -3399,7 +3424,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:33:01.267125+00:00",
-      "updated_at": "2026-08-26T11:31:28.881163+00:00"
+      "updated_at": "2026-08-27T20:55:21.776749+00:00"
     },
     {
       "bill_id": "ocd-bill/a4aab95d-dd0c-4cbd-a800-698c26c608c3",
@@ -3421,7 +3446,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:46:07.864371+00:00",
-      "updated_at": "2026-08-26T11:31:30.495341+00:00"
+      "updated_at": "2026-08-27T20:55:23.401422+00:00"
     },
     {
       "bill_id": "ocd-bill/cff7abbd-56d6-4ac0-87af-0accebb14159",
@@ -3443,7 +3468,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:47:47.354422+00:00",
-      "updated_at": "2026-08-26T11:31:32.044420+00:00"
+      "updated_at": "2026-08-27T20:56:10.332814+00:00"
     },
     {
       "bill_id": "ocd-bill/ea820f2b-3e5d-4465-a47d-a4972b279a10",
@@ -3465,7 +3490,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:49:26.998507+00:00",
-      "updated_at": "2026-08-26T11:31:33.655494+00:00"
+      "updated_at": "2026-08-27T20:56:11.953577+00:00"
     },
     {
       "bill_id": "ocd-bill/6839febe-208a-496a-98d0-63e5df01e201",
@@ -3487,7 +3512,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:39:58.185937+00:00",
-      "updated_at": "2026-08-26T11:31:35.198291+00:00"
+      "updated_at": "2026-08-27T20:56:13.575428+00:00"
     },
     {
       "bill_id": "ocd-bill/fb70803c-2a12-426d-80a0-a9ec5b97d6af",
@@ -3509,7 +3534,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:41:57.530678+00:00",
-      "updated_at": "2026-08-26T11:31:36.739983+00:00"
+      "updated_at": "2026-08-27T20:56:15.201615+00:00"
     },
     {
       "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
@@ -3531,7 +3556,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:43:46.044563+00:00",
-      "updated_at": "2026-08-26T11:32:23.484815+00:00"
+      "updated_at": "2026-08-27T20:56:17.534519+00:00"
     },
     {
       "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
@@ -3553,7 +3578,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:45:28.869742+00:00",
-      "updated_at": "2026-08-26T11:32:25.029358+00:00"
+      "updated_at": "2026-08-27T20:56:19.155604+00:00"
     },
     {
       "bill_id": "ocd-bill/e1e28dc1-829e-49dd-b3b9-7d1395195963",
@@ -3575,7 +3600,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:47:28.292477+00:00",
-      "updated_at": "2026-08-26T11:32:26.574748+00:00"
+      "updated_at": "2026-08-27T20:56:20.765616+00:00"
     },
     {
       "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
@@ -3597,7 +3622,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:49:07.700664+00:00",
-      "updated_at": "2026-08-26T11:32:28.127866+00:00"
+      "updated_at": "2026-08-27T20:56:22.389008+00:00"
     },
     {
       "bill_id": "ocd-bill/b7d7006b-cbce-4f7d-9ced-da6a7e19dc0b",
@@ -3619,7 +3644,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-09T11:50:47.170529+00:00",
-      "updated_at": "2026-08-26T11:32:29.669858+00:00"
+      "updated_at": "2026-08-27T20:56:23.995517+00:00"
     },
     {
       "bill_id": "ocd-bill/e0e1a2f9-69cf-472e-96ec-130d84843a55",
@@ -3641,7 +3666,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:51:06.387190+00:00",
-      "updated_at": "2026-08-26T11:32:31.318633+00:00"
+      "updated_at": "2026-08-27T20:56:25.621660+00:00"
     },
     {
       "bill_id": "ocd-bill/1548d225-d042-4c01-b41b-2f3f00219f2a",
@@ -3663,7 +3688,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:52:45.951121+00:00",
-      "updated_at": "2026-08-26T11:32:32.929851+00:00"
+      "updated_at": "2026-08-27T20:57:12.485061+00:00"
     },
     {
       "bill_id": "ocd-bill/4f85f996-f2b4-4bba-9e79-dafe03784b49",
@@ -3685,7 +3710,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:54:45.338609+00:00",
-      "updated_at": "2026-08-26T11:32:34.598544+00:00"
+      "updated_at": "2026-08-27T20:57:14.108171+00:00"
     },
     {
       "bill_id": "ocd-bill/bce85920-4fef-4908-b425-0933a603c75f",
@@ -3707,9 +3732,9 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-08-11T11:56:24.821414+00:00",
-      "updated_at": "2026-08-26T11:32:36.175504+00:00"
+      "updated_at": "2026-08-27T20:57:15.732008+00:00"
     }
   ],
-  "legislation_last_updated": "2026-08-26T11:32:36.175549+00:00",
+  "legislation_last_updated": "2026-08-27T20:57:15.732056+00:00",
   "legislation_flagged_count": 16
 }
