@@ -76,16 +76,16 @@
       "minutes_title": null
     },
     {
-      "title": "Planning Commission - Aug 20, 2026",
+      "title": "8/20/26 Planning Commission - Aug 20, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1331",
       "date": "2026-08-20",
       "clip_id": "1331",
       "guid": "03990743-8cd0-43fb-b73b-0e267043a55d",
-      "description": "The agenda for Planning Commission dated Thursday, 20 August 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1331",
+      "description": "The agenda for 8/20/26 Planning Commission dated Thursday, 20 August 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1331",
       "items": [
         {
           "num": "",
-          "title": "The agenda for Planning Commission dated Thursday, 20 August 2026  has been archived. Access it here:"
+          "title": "The agenda for 8/20/26 Planning Commission dated Thursday, 20 August 2026  has been archived. Access it here:"
         },
         {
           "num": "",
@@ -3267,9 +3267,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-09-01T15:23:43.266157+00:00",
+  "last_updated": "2026-09-01T22:25:20.414700+00:00",
   "last_items_hash": "ee8385ccb77459eb",
-  "changed": true,
+  "changed": false,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
@@ -3280,7 +3280,7 @@
     "cce0c46776"
   ],
   "prev_meeting_dates": [
-    "2026-08-28",
+    "2026-08-31",
     "2026-08-28",
     "2026-08-26",
     "2026-08-20",
