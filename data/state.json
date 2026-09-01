@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "Bidwell Park and Playground Commission - Aug 31, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1332",
+      "date": "2026-08-31",
+      "clip_id": "1332",
+      "guid": "278beb71-65e8-487d-a227-a5a5c7e11181",
+      "description": "The agenda for Bidwell Park and Playground Commission dated Monday, 31 August 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1332",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for Bidwell Park and Playground Commission dated Monday, 31 August 2026  has been archived. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1332"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1332"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "9/1/26 City Council - Special Closed Session Meeting - Sep 01, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1286",
       "date": "2026-08-28",
@@ -19,31 +44,6 @@
       ],
       "doc_urls": [
         "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1286"
-      ],
-      "feed_type": "agenda",
-      "has_minutes": false,
-      "minutes_link": null,
-      "minutes_title": null
-    },
-    {
-      "title": "Bidwell Park and Playground Commission - Aug 31, 2026",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1249",
-      "date": "2026-08-28",
-      "clip_id": null,
-      "guid": "b783c2e5-f6cf-455d-afb8-ad69833ef5e6",
-      "description": "The agenda for Bidwell Park and Playground Commission dated Monday, 31 August 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1249",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for Bidwell Park and Playground Commission dated Monday, 31 August 2026  has been published. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1249"
-        }
-      ],
-      "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1249"
       ],
       "feed_type": "agenda",
       "has_minutes": false,
@@ -2611,29 +2611,19 @@
     },
     {
       "title": "10/17/23 City Council - Oct 17, 2023",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1140",
+      "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1140",
       "date": "2023-10-17",
       "clip_id": "1140",
       "guid": "d74c9ad2-ba87-4c0d-ab43-9df7679a3ee3",
-      "description": "The agenda for 10/17/23 City Council dated Tuesday, 17 October 2023 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1140",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for 10/17/23 City Council dated Tuesday, 17 October 2023  has been archived. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1140"
-        }
-      ],
+      "description": "The agenda for 10/17/23 City Council dated Tuesday, 17 October 2023 has been archived. Access it here: https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1140",
+      "items": [],
       "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1140"
+        "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1140"
       ],
-      "feed_type": "agenda",
+      "feed_type": "minutes",
       "has_minutes": true,
       "minutes_link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1140",
-      "minutes_title": "10/17/23 City Council - Oct 17, 2023",
-      "minutes_doc_url": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1140"
+      "minutes_title": "10/17/23 City Council - Oct 17, 2023"
     },
     {
       "title": "10-3-23 City Council  Meeting - Continued to October 17, 2023 Due to Audio Problems - Oct 03, 2023",
@@ -3277,9 +3267,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-08-31T23:38:45.658597+00:00",
-  "last_items_hash": "260d6b87f7549589",
-  "changed": false,
+  "last_updated": "2026-09-01T15:23:43.266157+00:00",
+  "last_items_hash": "ee8385ccb77459eb",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
