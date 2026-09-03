@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "9/1/26 City Council - Special Closed Session Meeting - Sep 03, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1335",
+      "date": "2026-09-03",
+      "clip_id": "1335",
+      "guid": "2e24cfaf-9186-4ba7-bd77-331d548465fa",
+      "description": "The agenda for 9/1/26 City Council - Special Closed Session Meeting dated Thursday, 03 September 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1335",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for 9/1/26 City Council - Special Closed Session Meeting dated Thursday, 03 September 2026  has been archived. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1335"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1335"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "9/1/26 Council Meeting - Sep 01, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1334",
       "date": "2026-09-01",
@@ -2534,31 +2559,6 @@
       "minutes_doc_url": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1143"
     },
     {
-      "title": "Planning Commission - Nov 16, 2023",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1142",
-      "date": "2023-11-16",
-      "clip_id": "1142",
-      "guid": "5184fd6b-b1cb-456b-b9b9-db13e72e10cd",
-      "description": "The agenda for Planning Commission dated Thursday, 16 November 2023 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1142",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for Planning Commission dated Thursday, 16 November 2023  has been archived. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1142"
-        }
-      ],
-      "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1142"
-      ],
-      "feed_type": "agenda",
-      "has_minutes": false,
-      "minutes_link": null,
-      "minutes_title": null
-    },
-    {
       "title": "11/7/23 City Council - Nov 07, 2023",
       "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1141",
       "date": "2023-11-07",
@@ -3232,9 +3232,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-09-03T14:52:49.007232+00:00",
-  "last_items_hash": "6b7dc5776da94201",
-  "changed": false,
+  "last_updated": "2026-09-03T22:20:29.884018+00:00",
+  "last_items_hash": "b3bf95e7237587f0",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
