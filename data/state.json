@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "9/15/26 Council Meeting - Sep 15, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1336",
+      "date": "2026-09-15",
+      "clip_id": "1336",
+      "guid": "2ad82547-a746-41d3-9a4b-6bc3ac1b39f8",
+      "description": "The agenda for 9/15/26 Council Meeting dated Tuesday, 15 September 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1336",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for 9/15/26 Council Meeting dated Tuesday, 15 September 2026  has been archived. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1336"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1336"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "Planning Commission Meeting - Sep 17, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1089",
       "date": "2026-09-10",
@@ -19,31 +44,6 @@
       ],
       "doc_urls": [
         "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1089"
-      ],
-      "feed_type": "agenda",
-      "has_minutes": false,
-      "minutes_link": null,
-      "minutes_title": null
-    },
-    {
-      "title": "9/15/26 Council Meeting - Sep 15, 2026",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1202",
-      "date": "2026-09-10",
-      "clip_id": null,
-      "guid": "e4c9b5f6-66d8-4a72-a4f6-78449fb07286",
-      "description": "The agenda for 9/15/26 Council Meeting dated Tuesday, 15 September 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1202",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for 9/15/26 Council Meeting dated Tuesday, 15 September 2026  has been published. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1202"
-        }
-      ],
-      "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1202"
       ],
       "feed_type": "agenda",
       "has_minutes": false,
@@ -2584,29 +2584,19 @@
     },
     {
       "title": "11/21/23 Council Minutes - Nov 21, 2023",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1143",
+      "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1143",
       "date": "2023-11-21",
       "clip_id": "1143",
       "guid": "9ab24027-745f-4f13-8f39-b2dd6b79de7c",
-      "description": "The agenda for 11/21/23 Council Minutes dated Tuesday, 21 November 2023 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1143",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for 11/21/23 Council Minutes dated Tuesday, 21 November 2023  has been archived. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1143"
-        }
-      ],
+      "description": "The agenda for 11/21/23 Council Minutes dated Tuesday, 21 November 2023 has been archived. Access it here: https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1143",
+      "items": [],
       "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1143"
+        "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1143"
       ],
-      "feed_type": "agenda",
+      "feed_type": "minutes",
       "has_minutes": true,
       "minutes_link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1143",
-      "minutes_title": "11/21/23 Council Minutes - Nov 21, 2023",
-      "minutes_doc_url": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1143"
+      "minutes_title": "11/21/23 Council Minutes - Nov 21, 2023"
     },
     {
       "title": "11/7/23 City Council - Nov 07, 2023",
@@ -3282,9 +3272,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-09-15T22:43:53.389481+00:00",
-  "last_items_hash": "8ef51beebfe0aa3c",
-  "changed": false,
+  "last_updated": "2026-09-16T15:20:17.458060+00:00",
+  "last_items_hash": "7f70ab8971205ee5",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
