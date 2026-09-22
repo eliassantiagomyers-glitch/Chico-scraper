@@ -1,31 +1,6 @@
 {
   "meetings": [
     {
-      "title": "9/21/26 Special City Council Meeting - Sep 21, 2026",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1287",
-      "date": "2026-09-18",
-      "clip_id": null,
-      "guid": "6da366bf-4939-4a4b-92c3-d6f47aff3ca1",
-      "description": "The agenda for 9/21/26 Special City Council Meeting dated Monday, 21 September 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1287",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for 9/21/26 Special City Council Meeting dated Monday, 21 September 2026  has been published. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1287"
-        }
-      ],
-      "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1287"
-      ],
-      "feed_type": "agenda",
-      "has_minutes": false,
-      "minutes_link": null,
-      "minutes_title": null
-    },
-    {
       "title": "Planning Commission Meeting - Sep 17, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1337",
       "date": "2026-09-17",
@@ -3272,9 +3247,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-09-21T23:02:20.189741+00:00",
-  "last_items_hash": "f230f59ee5eb0909",
-  "changed": false,
+  "last_updated": "2026-09-22T15:25:54.443240+00:00",
+  "last_items_hash": "c832e11a46ec8e40",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
