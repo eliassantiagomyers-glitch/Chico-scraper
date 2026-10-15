@@ -3277,7 +3277,7 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-10-15T15:30:17.468948+00:00",
+  "last_updated": "2026-10-15T22:54:35.981320+00:00",
   "last_items_hash": "5b27f9a7cda526f6",
   "changed": false,
   "prev_bill_ids": [
@@ -3437,6 +3437,6 @@
     "2021-09-21"
   ],
   "state_legislation": [],
-  "legislation_last_updated": "2026-10-14T23:00:33.178389+00:00",
+  "legislation_last_updated": "2026-10-15T22:55:10.000154+00:00",
   "legislation_flagged_count": 0
 }
