@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "City Council Meeting - Oct 20, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1292",
+      "date": "2026-10-16",
+      "clip_id": null,
+      "guid": "39011818-b6a4-46fe-8d8d-0984897f8bcf",
+      "description": "The agenda for City Council Meeting dated Tuesday, 20 October 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1292",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for City Council Meeting dated Tuesday, 20 October 2026  has been published. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1292"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1292"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "10/6/26 Council Meeting - Oct 06, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1340",
       "date": "2026-10-06",
@@ -3277,9 +3302,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-10-16T15:15:07.383466+00:00",
-  "last_items_hash": "5b27f9a7cda526f6",
-  "changed": false,
+  "last_updated": "2026-10-16T22:35:41.144023+00:00",
+  "last_items_hash": "9d6bb592919cf8b8",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
@@ -3437,6 +3462,6 @@
     "2021-09-21"
   ],
   "state_legislation": [],
-  "legislation_last_updated": "2026-10-15T22:55:10.000154+00:00",
+  "legislation_last_updated": "2026-10-16T22:36:14.967858+00:00",
   "legislation_flagged_count": 0
 }
