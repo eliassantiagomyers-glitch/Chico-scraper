@@ -3302,7 +3302,7 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-10-20T15:33:32.287995+00:00",
+  "last_updated": "2026-10-20T22:57:15.986281+00:00",
   "last_items_hash": "9d6bb592919cf8b8",
   "changed": false,
   "prev_bill_ids": [
@@ -3462,7 +3462,30 @@
     "2021-09-27",
     "2021-09-21"
   ],
-  "state_legislation": [],
-  "legislation_last_updated": "2026-10-19T23:23:27.883867+00:00",
-  "legislation_flagged_count": 0
+  "state_legislation": [
+    {
+      "bill_id": "ocd-bill/02784d78-14b8-4ad0-9765-dee5d29f9ce9",
+      "bill_number": "SB 614",
+      "title": "Public resources: transportation of carbon dioxide.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/SB 614/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-10-20T22:58:40.911473+00:00",
+      "updated_at": "2026-10-20T22:58:40.911488+00:00"
+    }
+  ],
+  "legislation_last_updated": "2026-10-20T22:58:40.911507+00:00",
+  "legislation_flagged_count": 1
 }
