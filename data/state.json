@@ -2,23 +2,23 @@
   "meetings": [
     {
       "title": "Bidwell Park and Playground Commission - Oct 26, 2026",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1251",
-      "date": "2026-10-23",
-      "clip_id": null,
-      "guid": "658f4e4b-7777-4cab-b8ba-cc6b364734fa",
-      "description": "The agenda for Bidwell Park and Playground Commission dated Monday, 26 October 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1251",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1342",
+      "date": "2026-10-26",
+      "clip_id": "1342",
+      "guid": "5fb97886-8cf2-40e2-a0b5-bb8de93a702d",
+      "description": "The agenda for Bidwell Park and Playground Commission dated Monday, 26 October 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1342",
       "items": [
         {
           "num": "",
-          "title": "The agenda for Bidwell Park and Playground Commission dated Monday, 26 October 2026  has been published. Access it here:"
+          "title": "The agenda for Bidwell Park and Playground Commission dated Monday, 26 October 2026  has been archived. Access it here:"
         },
         {
           "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1251"
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1342"
         }
       ],
       "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1251"
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1342"
       ],
       "feed_type": "agenda",
       "has_minutes": false,
@@ -2556,31 +2556,6 @@
       "minutes_title": null
     },
     {
-      "title": "Planning Commission - Jan 18, 2024",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1151",
-      "date": "2024-01-18",
-      "clip_id": "1151",
-      "guid": "69e8a78e-1fb1-4927-9cd1-e3fd6e22661a",
-      "description": "The agenda for Planning Commission dated Thursday, 18 January 2024 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1151",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for Planning Commission dated Thursday, 18 January 2024  has been archived. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1151"
-        }
-      ],
-      "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1151"
-      ],
-      "feed_type": "agenda",
-      "has_minutes": false,
-      "minutes_link": null,
-      "minutes_title": null
-    },
-    {
       "title": "1/16/24 Council Meeting - Jan 16, 2024",
       "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1149",
       "date": "2024-01-16",
@@ -3302,9 +3277,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-10-26T23:35:49.537356+00:00",
-  "last_items_hash": "66f44c8f5bfdcf7b",
-  "changed": false,
+  "last_updated": "2026-10-27T16:12:53.401343+00:00",
+  "last_items_hash": "aabe04fb433a9a09",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
