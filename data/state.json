@@ -3262,7 +3262,7 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-10-28T17:00:08.618465+00:00",
+  "last_updated": "2026-10-28T23:54:00.269868+00:00",
   "last_items_hash": "099189d585a418bf",
   "changed": false,
   "prev_bill_ids": [
@@ -3422,28 +3422,6 @@
   ],
   "state_legislation": [
     {
-      "bill_id": "ocd-bill/02784d78-14b8-4ad0-9765-dee5d29f9ce9",
-      "bill_number": "SB 614",
-      "title": "Public resources: transportation of carbon dioxide.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 614/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-10-20T22:58:40.911473+00:00",
-      "updated_at": "2026-10-27T23:33:26.860249+00:00"
-    },
-    {
       "bill_id": "ocd-bill/9d4eb704-0f0d-4cf9-8782-71e1befba186",
       "bill_number": "SB 629",
       "title": "Wildfires: fire hazard severity zones: post-wildfire safety areas.",
@@ -3463,7 +3441,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:33:35.831344+00:00",
-      "updated_at": "2026-10-27T23:33:35.831362+00:00"
+      "updated_at": "2026-10-28T23:55:24.402339+00:00"
     },
     {
       "bill_id": "ocd-bill/9c4a4649-fe4f-420d-8347-7d5bd4a3e649",
@@ -3485,7 +3463,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:33:45.655364+00:00",
-      "updated_at": "2026-10-27T23:33:45.655381+00:00"
+      "updated_at": "2026-10-28T23:55:26.203456+00:00"
     },
     {
       "bill_id": "ocd-bill/7a4449fe-5de1-4821-8068-f4835984b42d",
@@ -3507,7 +3485,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:34:11.430150+00:00",
-      "updated_at": "2026-10-27T23:34:11.430167+00:00"
+      "updated_at": "2026-10-28T23:55:28.015894+00:00"
     },
     {
       "bill_id": "ocd-bill/cff7abbd-56d6-4ac0-87af-0accebb14159",
@@ -3529,7 +3507,29 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:34:20.436165+00:00",
-      "updated_at": "2026-10-27T23:34:20.436182+00:00"
+      "updated_at": "2026-10-28T23:55:29.820974+00:00"
+    },
+    {
+      "bill_id": "ocd-bill/02784d78-14b8-4ad0-9765-dee5d29f9ce9",
+      "bill_number": "SB 614",
+      "title": "Public resources: transportation of carbon dioxide.",
+      "abstract": "",
+      "url": "https://openstates.org/ca/bills/2025-2026/SB 614/",
+      "score": 7,
+      "status": "introduced",
+      "status_label": "Introduced",
+      "last_action": "",
+      "last_action_date": "",
+      "committee": "",
+      "sponsors": [],
+      "rep_votes": {},
+      "explanation": "Analysis unavailable.",
+      "local_angle": "",
+      "topics": [],
+      "rep_vote_notes": {},
+      "timeline": [],
+      "flagged_at": "2026-10-20T22:58:40.911473+00:00",
+      "updated_at": "2026-10-28T23:55:31.624827+00:00"
     },
     {
       "bill_id": "ocd-bill/ea820f2b-3e5d-4465-a47d-a4972b279a10",
@@ -3551,7 +3551,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:34:29.632576+00:00",
-      "updated_at": "2026-10-27T23:34:29.632594+00:00"
+      "updated_at": "2026-10-28T23:55:33.427274+00:00"
     },
     {
       "bill_id": "ocd-bill/8f502de8-d0d0-4128-97db-20fa3fcd8020",
@@ -3573,7 +3573,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:34:38.405754+00:00",
-      "updated_at": "2026-10-27T23:34:38.405776+00:00"
+      "updated_at": "2026-10-28T23:56:20.975172+00:00"
     },
     {
       "bill_id": "ocd-bill/ef97f7c9-2879-4560-b107-c79d6ceebf0e",
@@ -3595,7 +3595,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:34:47.337781+00:00",
-      "updated_at": "2026-10-27T23:34:47.337797+00:00"
+      "updated_at": "2026-10-28T23:56:22.929064+00:00"
     },
     {
       "bill_id": "ocd-bill/fb70803c-2a12-426d-80a0-a9ec5b97d6af",
@@ -3617,7 +3617,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:34:56.277616+00:00",
-      "updated_at": "2026-10-27T23:34:56.277632+00:00"
+      "updated_at": "2026-10-28T23:56:24.732976+00:00"
     },
     {
       "bill_id": "ocd-bill/6839febe-208a-496a-98d0-63e5df01e201",
@@ -3639,7 +3639,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:05.166991+00:00",
-      "updated_at": "2026-10-27T23:35:05.167008+00:00"
+      "updated_at": "2026-10-28T23:56:26.518072+00:00"
     },
     {
       "bill_id": "ocd-bill/e1e28dc1-829e-49dd-b3b9-7d1395195963",
@@ -3661,7 +3661,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:14.092791+00:00",
-      "updated_at": "2026-10-27T23:35:14.092808+00:00"
+      "updated_at": "2026-10-28T23:56:28.474322+00:00"
     },
     {
       "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
@@ -3683,7 +3683,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:22.835486+00:00",
-      "updated_at": "2026-10-27T23:35:22.835504+00:00"
+      "updated_at": "2026-10-28T23:56:30.271212+00:00"
     },
     {
       "bill_id": "ocd-bill/b7d7006b-cbce-4f7d-9ced-da6a7e19dc0b",
@@ -3705,7 +3705,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:31.592375+00:00",
-      "updated_at": "2026-10-27T23:35:31.592393+00:00"
+      "updated_at": "2026-10-28T23:56:32.071077+00:00"
     },
     {
       "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
@@ -3727,7 +3727,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:40.511690+00:00",
-      "updated_at": "2026-10-27T23:35:40.511707+00:00"
+      "updated_at": "2026-10-28T23:56:33.876469+00:00"
     },
     {
       "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
@@ -3749,7 +3749,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:49.365222+00:00",
-      "updated_at": "2026-10-27T23:35:49.365236+00:00"
+      "updated_at": "2026-10-28T23:56:35.680632+00:00"
     },
     {
       "bill_id": "ocd-bill/4f85f996-f2b4-4bba-9e79-dafe03784b49",
@@ -3771,7 +3771,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:59.302972+00:00",
-      "updated_at": "2026-10-27T23:35:59.302988+00:00"
+      "updated_at": "2026-10-28T23:56:37.509781+00:00"
     },
     {
       "bill_id": "ocd-bill/e0e1a2f9-69cf-472e-96ec-130d84843a55",
@@ -3793,7 +3793,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:36:08.528907+00:00",
-      "updated_at": "2026-10-27T23:36:08.528924+00:00"
+      "updated_at": "2026-10-28T23:57:07.817420+00:00"
     },
     {
       "bill_id": "ocd-bill/1548d225-d042-4c01-b41b-2f3f00219f2a",
@@ -3815,7 +3815,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:36:17.306422+00:00",
-      "updated_at": "2026-10-27T23:36:17.306438+00:00"
+      "updated_at": "2026-10-28T23:57:09.626353+00:00"
     },
     {
       "bill_id": "ocd-bill/f22db23a-f3da-428a-a372-108ee965d333",
@@ -3837,9 +3837,9 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:36:26.065183+00:00",
-      "updated_at": "2026-10-27T23:36:26.065201+00:00"
+      "updated_at": "2026-10-28T23:57:11.419217+00:00"
     }
   ],
-  "legislation_last_updated": "2026-10-27T23:36:26.065242+00:00",
+  "legislation_last_updated": "2026-10-28T23:57:11.419265+00:00",
   "legislation_flagged_count": 19
 }
