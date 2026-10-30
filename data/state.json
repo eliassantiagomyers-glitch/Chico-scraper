@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "11/3/26 City Council Meeting - Nov 03, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1293",
+      "date": "2026-10-30",
+      "clip_id": null,
+      "guid": "7462fa68-1606-4f62-b5a6-310cab316b89",
+      "description": "The agenda for 11/3/26 City Council Meeting dated Tuesday, 03 November 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1293",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for 11/3/26 City Council Meeting dated Tuesday, 03 November 2026  has been published. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1293"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1293"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "Planning Commission - Nov 05, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1092",
       "date": "2026-10-29",
@@ -19,31 +44,6 @@
       ],
       "doc_urls": [
         "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1092"
-      ],
-      "feed_type": "agenda",
-      "has_minutes": false,
-      "minutes_link": null,
-      "minutes_title": null
-    },
-    {
-      "title": "11/3/26 City Council Meeting - Nov 03, 2026",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1293",
-      "date": "2026-10-29",
-      "clip_id": null,
-      "guid": "7462fa68-1606-4f62-b5a6-310cab316b89",
-      "description": "The agenda for 11/3/26 City Council Meeting dated Tuesday, 03 November 2026 has been published. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1293",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for 11/3/26 City Council Meeting dated Tuesday, 03 November 2026  has been published. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1293"
-        }
-      ],
-      "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1293"
       ],
       "feed_type": "agenda",
       "has_minutes": false,
@@ -3312,9 +3312,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-10-30T16:56:35.532770+00:00",
-  "last_items_hash": "eb5ae864a1e29e76",
-  "changed": false,
+  "last_updated": "2026-10-30T23:29:04.072695+00:00",
+  "last_items_hash": "740df171ff9d217f",
+  "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
@@ -3493,7 +3493,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:33:35.831344+00:00",
-      "updated_at": "2026-10-29T23:49:22.096869+00:00"
+      "updated_at": "2026-10-30T23:31:32.178607+00:00"
     },
     {
       "bill_id": "ocd-bill/9c4a4649-fe4f-420d-8347-7d5bd4a3e649",
@@ -3515,7 +3515,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:33:45.655364+00:00",
-      "updated_at": "2026-10-29T23:49:23.734975+00:00"
+      "updated_at": "2026-10-30T23:31:36.183597+00:00"
     },
     {
       "bill_id": "ocd-bill/7a4449fe-5de1-4821-8068-f4835984b42d",
@@ -3537,117 +3537,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:34:11.430150+00:00",
-      "updated_at": "2026-10-29T23:49:25.454262+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/cff7abbd-56d6-4ac0-87af-0accebb14159",
-      "bill_number": "SB 831",
-      "title": "Geologic hazards: California Geological Survey.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 831/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-10-27T23:34:20.436165+00:00",
-      "updated_at": "2026-10-29T23:49:27.150847+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/02784d78-14b8-4ad0-9765-dee5d29f9ce9",
-      "bill_number": "SB 614",
-      "title": "Public resources: transportation of carbon dioxide.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 614/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-10-20T22:58:40.911473+00:00",
-      "updated_at": "2026-10-29T23:49:34.529462+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/ea820f2b-3e5d-4465-a47d-a4972b279a10",
-      "bill_number": "SB 292",
-      "title": "Electricity: wildfire mitigation: deenergization events and reliability.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 292/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-10-27T23:34:29.632576+00:00",
-      "updated_at": "2026-10-29T23:49:36.185735+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/8f502de8-d0d0-4128-97db-20fa3fcd8020",
-      "bill_number": "SB 506",
-      "title": "Transportation: omnibus bill.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 506/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-10-27T23:34:38.405754+00:00",
-      "updated_at": "2026-10-29T23:50:29.824879+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/ef97f7c9-2879-4560-b107-c79d6ceebf0e",
-      "bill_number": "AB 881",
-      "title": "Public resources: transportation of carbon dioxide.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/AB 881/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-10-27T23:34:47.337781+00:00",
-      "updated_at": "2026-10-29T23:50:31.696244+00:00"
+      "updated_at": "2026-10-30T23:31:38.523468+00:00"
     },
     {
       "bill_id": "ocd-bill/fb70803c-2a12-426d-80a0-a9ec5b97d6af",
@@ -3669,7 +3559,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:34:56.277616+00:00",
-      "updated_at": "2026-10-29T23:50:50.965029+00:00"
+      "updated_at": "2026-10-30T23:31:41.802087+00:00"
     },
     {
       "bill_id": "ocd-bill/6839febe-208a-496a-98d0-63e5df01e201",
@@ -3691,7 +3581,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:05.166991+00:00",
-      "updated_at": "2026-10-29T23:50:58.978664+00:00"
+      "updated_at": "2026-10-30T23:31:45.760712+00:00"
     },
     {
       "bill_id": "ocd-bill/e1e28dc1-829e-49dd-b3b9-7d1395195963",
@@ -3713,7 +3603,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:14.092791+00:00",
-      "updated_at": "2026-10-29T23:51:02.201183+00:00"
+      "updated_at": "2026-10-30T23:31:49.048259+00:00"
     },
     {
       "bill_id": "ocd-bill/d8261f1e-bd17-4629-9411-baf6e121e1b9",
@@ -3735,7 +3625,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:22.835486+00:00",
-      "updated_at": "2026-10-29T23:51:04.899359+00:00"
+      "updated_at": "2026-10-30T23:31:51.065497+00:00"
     },
     {
       "bill_id": "ocd-bill/b7d7006b-cbce-4f7d-9ced-da6a7e19dc0b",
@@ -3757,7 +3647,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:31.592375+00:00",
-      "updated_at": "2026-10-29T23:51:08.389938+00:00"
+      "updated_at": "2026-10-30T23:31:52.996947+00:00"
     },
     {
       "bill_id": "ocd-bill/cf4e99b8-54a9-4469-8e74-032afcc42807",
@@ -3779,7 +3669,7 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:40.511690+00:00",
-      "updated_at": "2026-10-29T23:51:11.210915+00:00"
+      "updated_at": "2026-10-30T23:31:54.735085+00:00"
     },
     {
       "bill_id": "ocd-bill/8de82862-6547-49ff-97d8-3f8afc66416d",
@@ -3801,97 +3691,9 @@
       "rep_vote_notes": {},
       "timeline": [],
       "flagged_at": "2026-10-27T23:35:49.365222+00:00",
-      "updated_at": "2026-10-29T23:51:15.666131+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/4f85f996-f2b4-4bba-9e79-dafe03784b49",
-      "bill_number": "SB 582",
-      "title": "Health and care facilities: licensing during emergencies or disasters.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 582/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-10-27T23:35:59.302972+00:00",
-      "updated_at": "2026-10-29T23:51:18.379001+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/e0e1a2f9-69cf-472e-96ec-130d84843a55",
-      "bill_number": "AB 1529",
-      "title": "Housing omnibus.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/AB 1529/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-10-27T23:36:08.528907+00:00",
-      "updated_at": "2026-10-29T23:51:20.089537+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/1548d225-d042-4c01-b41b-2f3f00219f2a",
-      "bill_number": "SB 123",
-      "title": "Higher education budget trailer bill.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/SB 123/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-10-27T23:36:17.306422+00:00",
-      "updated_at": "2026-10-29T23:51:21.831540+00:00"
-    },
-    {
-      "bill_id": "ocd-bill/f22db23a-f3da-428a-a372-108ee965d333",
-      "bill_number": "AB 783",
-      "title": "Public contracts: construction materials: disaster relief.",
-      "abstract": "",
-      "url": "https://openstates.org/ca/bills/2025-2026/AB 783/",
-      "score": 7,
-      "status": "introduced",
-      "status_label": "Introduced",
-      "last_action": "",
-      "last_action_date": "",
-      "committee": "",
-      "sponsors": [],
-      "rep_votes": {},
-      "explanation": "Analysis unavailable.",
-      "local_angle": "",
-      "topics": [],
-      "rep_vote_notes": {},
-      "timeline": [],
-      "flagged_at": "2026-10-27T23:36:26.065183+00:00",
-      "updated_at": "2026-10-29T23:51:24.095549+00:00"
+      "updated_at": "2026-10-30T23:32:13.512164+00:00"
     }
   ],
-  "legislation_last_updated": "2026-10-29T23:51:24.095608+00:00",
-  "legislation_flagged_count": 19
+  "legislation_last_updated": "2026-10-30T23:32:13.512192+00:00",
+  "legislation_flagged_count": 10
 }
