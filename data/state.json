@@ -1,6 +1,31 @@
 {
   "meetings": [
     {
+      "title": "2026-11-03 at 175800 Nov. 3, 2026 Chico City Council Meeting - Nov 04, 2026",
+      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1345",
+      "date": "2026-11-04",
+      "clip_id": "1345",
+      "guid": "980911a3-d89f-11f1-9c50-005056a84798",
+      "description": "The agenda for 2026-11-03 at 175800 Nov. 3, 2026 Chico City Council Meeting dated Wednesday, 04 November 2026 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1345",
+      "items": [
+        {
+          "num": "",
+          "title": "The agenda for 2026-11-03 at 175800 Nov. 3, 2026 Chico City Council Meeting dated Wednesday, 04 November 2026  has been archived. Access it here:"
+        },
+        {
+          "num": "",
+          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1345"
+        }
+      ],
+      "doc_urls": [
+        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1345"
+      ],
+      "feed_type": "agenda",
+      "has_minutes": false,
+      "minutes_link": null,
+      "minutes_title": null
+    },
+    {
       "title": "Planning Commission - Nov 05, 2026",
       "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&event_id=1092",
       "date": "2026-10-29",
@@ -2557,31 +2582,6 @@
       "minutes_doc_url": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&amp;clip_id=1153"
     },
     {
-      "title": "2/1/24 Planning Commission - Feb 01, 2024",
-      "link": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1152",
-      "date": "2024-02-01",
-      "clip_id": "1152",
-      "guid": "4605a12b-0ad7-4907-8eed-1c68fb8f9532",
-      "description": "The agenda for 2/1/24 Planning Commission dated Thursday, 01 February 2024 has been archived. Access it here: https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1152",
-      "items": [
-        {
-          "num": "",
-          "title": "The agenda for 2/1/24 Planning Commission dated Thursday, 01 February 2024  has been archived. Access it here:"
-        },
-        {
-          "num": "",
-          "title": "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&clip_id=1152"
-        }
-      ],
-      "doc_urls": [
-        "https://chico-ca.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=1152"
-      ],
-      "feed_type": "agenda",
-      "has_minutes": false,
-      "minutes_link": null,
-      "minutes_title": null
-    },
-    {
       "title": "1/16/24 Council Meeting - Jan 16, 2024",
       "link": "https://chico-ca.granicus.com/MinutesViewer.php?view_id=2&clip_id=1149",
       "date": "2024-01-16",
@@ -3287,8 +3287,8 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-11-04T18:28:54.591796+00:00",
-  "last_items_hash": "ea68689321834ed8",
+  "last_updated": "2026-11-05T00:44:48.848859+00:00",
+  "last_items_hash": "e3f226afa8a4ec53",
   "changed": true,
   "prev_bill_ids": [
     "3f677737fe",
@@ -3300,7 +3300,6 @@
     "cce0c46776"
   ],
   "prev_meeting_dates": [
-    "2026-10-30",
     "2026-10-29",
     "2026-10-26",
     "2026-10-20",
