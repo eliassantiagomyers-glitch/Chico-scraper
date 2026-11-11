@@ -3292,9 +3292,9 @@
     }
   ],
   "bills": [],
-  "last_updated": "2026-11-10T18:29:31.156036+00:00",
+  "last_updated": "2026-11-11T00:26:03.813283+00:00",
   "last_items_hash": "d5e57b0fa7f28e46",
-  "changed": true,
+  "changed": false,
   "prev_bill_ids": [
     "3f677737fe",
     "111e9bf6d5",
@@ -3305,6 +3305,7 @@
     "cce0c46776"
   ],
   "prev_meeting_dates": [
+    "2026-11-05",
     "2026-11-03",
     "2026-10-26",
     "2026-10-20",
